@@ -1,0 +1,7 @@
+Machine learn based on cleaned results.
+
+Put ads into two categories - prostitutes and couples
+Then machine learn keywords in the head and the body of the text for decernable keyword patterns that 
+meaningful across all possible samples.
+
+I will manually parse log n data elements to get n data elements for machine learning.
