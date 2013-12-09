@@ -1,0 +1,110 @@
+Everything is sort of messed up..
+I need to figure out how to scrape all the subcraigslists nationally
+right now I can scrape individual craigslists
+The eaiest way to do this may be to just create different subdirectories with different areas
+scrape those
+then merge all result folders
+
+
+
+
+
+
+
+
+
+
+
+
+
+Scraping
+What's been done:
+
+The scraper automatically downloads a given set of webpages.
+hashes all websites downloaded
+places them in a database
+database able to update scrapes
+List of websites to scrape has been generated. - Backpage, craigslist
+
+What needs to be done:
+
+gather statistics on m4w as well as w4m.
+This will give us information about the users of prostitution.
+From the number of posts we can infer demand for prostitutes.
+Thus we have an idea, per community, on what the demand levels are like.
+We can also look at the price of prostitutes in a given community, discounted by average
+income in the area.
+If the disparity between average income and average price of a prostitute is higher than average
+we can claim demand is high.
+If the disparity is low or below average, we can assume demand is low.
+
+implement http://www.adhuntr.com/ as a random search, for anywhere in the country.
+This will be location none,specific.  This should only be done if the user querying the system
+Does not have any search parameters specified.
+Notes on this:
+
+There is list inside the search query that returns a random list of queries.  I will need to look into automating filling a textbox from python.  But once that is done this should be easy.
+
+
+the scraper needs to be called on each link for each craigslist page
+the link needs to be hashed and then analyzed
+
+Any pictures and text need to be extracted
+
+Phone numbers need to be translated
+
+keywords need to be stored in separate fields
+
+pictures need to be compared against the database of existing pictures
+
+features need to be updated in the main database
+
+An estimate should be given on the likelihood a given post is for prostitution.
+This will be based keywords in the post, pictures in the post, and whether a phone number is present.
+All three features - specific keywords, pictures, and a phone number guarantee prostitution.
+
+Database stuff:
+A central database needs to be created
+
+The database for a given scraping needs to be copied to a higher level directory and merged with 
+the central database.
+
+
+Analysis stuff:
+a number of features need to be determined for extraction.
+
+Features so far:
+
+frequency of posts in a given area
+rate of posting
+uniqueness of posting
+origin of a given photo if possible
+origin of a given poster (determined by cell phone zip code)
+number of pictures per post
+ratio of women in the area versus number of unique posts per month
+overall population of the area
+rate of population inflow to the area per day
+rate of population outflow to the area per day
+rate of population inflow to the area per week
+rate of population outflow to the area per week
+rate of population inflow to the area per month
+rate of population outflow to the area per month
+hourly rate of given prostitute
+age of prostitute, if possible to determine (anyone underage is considered trafficked)
+
+
+
+
+Crawling
+
+What needs to be done
+
+Crawler should be generated automatically with scraper.  - last step
+
+crawler needs to pull out all links on a given page
+crawler needs to determine if the links stay within a given website
+if so, then keep them
+if not, possibly disgard - to resolve this, create crawlers for each website in question.
+
+Next decision is made about all links obtained on a given page
+Finally, scraper is called again for all links to scrape
