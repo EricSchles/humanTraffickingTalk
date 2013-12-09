@@ -44,10 +44,7 @@ name = name[1]
 
 
 config.seek(0)  #reset config file to first line
-# start_url_one = config.readline()
-# start_url_one = start_url_one.strip()
-# start_url_two = config.readline()
-# start_url_two = start_url_two.strip()
+
 
 urls_to_scrap = []
 for i in config:
@@ -112,15 +109,8 @@ spider_py_contents_end ="""
 spider_py_contents_middle = CodeGeneratorBackend()
 spider_py_contents_middle.begin()
 
-# spider_py_contents.write("from scrapy.spider import BaseSpider\n")
-# spider_py_contents.write("class "+name[0].upper() + name[1:]+"Spider(BaseSpider):\n")
-
 spider_py_contents_middle.write("\n")
 spider_py_contents_middle.indent()
-
-# spider_py_contents.write("name = \""+name+"\"\n")
-# spider_py_contents.write("allowed_domains = " +'["'+domain_name+'"]'+" \n")
-# spider_py_contents.write("start_urls = [\n")
 
 spider_py_contents_middle.indent()
 
@@ -135,15 +125,6 @@ for i in urls:
     spider_py_contents_middle.write(' "'+i+'",\n')
 spider_py_contents_middle.write(' "'+last_one+'"\n')
 
-# spider_py_contents.dedent()
-# spider_py_contents.write("]\n")
-# #for appropriate indentation level
-# spider_py_contents.dedent()
-# spider_py_contents.indent()
-# spider_py_contents.write(" def parse(self, response):\n")
-# spider_py_contents.indent()
-# spider_py_contents.write('filename = response.url.split("/")[-2]\n')
-# spider_py_contents.write("open(filename, 'wb').write(response.body)\n")
 spider_py_contents_done = spider_py_contents_middle.end()
 
 spider_py_contents_full = spider_py_contents_start + spider_py_contents_done + spider_py_contents_end

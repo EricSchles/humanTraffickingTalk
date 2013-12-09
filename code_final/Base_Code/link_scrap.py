@@ -11,8 +11,6 @@ present_dir = os.getcwd()
 
 config = open("config.txt","r")
 
-#md5 function comes from http://stackoverflow.com/questions/1131220/get-md5-hash-of-big-files-in-python/4213255#4213255
-
 #we strip the trailing newlines with strip() because it causes a formatting error
 #when we try to write to the name_spider.py file  
 name = config.readline()    

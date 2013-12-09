@@ -32,9 +32,6 @@ def time_posted(contents):
     #date format: year-month-dayTHour:minute:second-timezone (based on gmt)
     return date
 
-
-#it's not clear how to do this yet.
-# def hourly_rate(contents):
     
 def digit_grab(body):
     #there are a few distinct obfuscation patterns:
@@ -75,6 +72,8 @@ def year_old(contents):
     else:
         return None
 
+#md5 function comes from http://stackoverflow.com/questions/1131220/get-md5-hash-of-big-files-in-python/4213255#4213255
+
 def md5sum(filename):
     md5 = hashlib.md5()
     with open(filename, 'rb') as f:
@@ -109,28 +108,29 @@ for i_file in files_to_check:
     if w4m and picture_exists:
         call(['mv', "./"+i_file, "results_women/"])
         
+#I need more time to figure out how to use this
 
-("numbers.csv","w")
-os.chdir("results_women")    
-files_to_check = glob.glob("*.html")
-initial = []
-w_translate = []
-for i_file in files_to_check:
-    j_file = open(i_file,"r")
-    j_contents = j_file.read()
-    start_offset = j_contents.find('<section id="postingbody">')
-    end_offset = j_contents.find('</section>',start_offset)
-    post_body = j_contents[start_offset:end_offset]
+# ("numbers.csv","w")
+# os.chdir("results_women")    
+# files_to_check = glob.glob("*.html")
+# initial = []
+# w_translate = []
+# for i_file in files_to_check:
+#     j_file = open(i_file,"r")
+#     j_contents = j_file.read()
+#     start_offset = j_contents.find('<section id="postingbody">')
+#     end_offset = j_contents.find('</section>',start_offset)
+#     post_body = j_contents[start_offset:end_offset]
 
-    #determine phone numbers
-    translated_body = post_body.upper()
-    translated_body = word_to_digit(translated_body)
-    phone_number = digit_grab(post_body)
-    phone_translated = digit_grab(translated_body)
-    initial.append([phone_number,i_file])
-    w_translate.append([phone_translated,i_file])
+#     #determine phone numbers
+#     translated_body = post_body.upper()
+#     translated_body = word_to_digit(translated_body)
+#     phone_number = digit_grab(post_body)
+#     phone_translated = digit_grab(translated_body)
+#     initial.append([phone_number,i_file])
+#     w_translate.append([phone_translated,i_file])
 
-    age = year_old(post_body)
+#     age = year_old(post_body)
 
 
 

@@ -32,9 +32,6 @@ def time_posted(contents):
     #date format: year-month-dayTHour:minute:second-timezone (based on gmt)
     return date
 
-
-#it's not clear how to do this yet.
-# def hourly_rate(contents):
     
 def digit_grab(body):
     #there are a few distinct obfuscation patterns:
@@ -75,6 +72,8 @@ def year_old(contents):
     else:
         return None
 
+#md5 function comes from http://stackoverflow.com/questions/1131220/get-md5-hash-of-big-files-in-python/4213255#4213255
+
 def md5sum(filename):
     md5 = hashlib.md5()
     with open(filename, 'rb') as f:
@@ -108,7 +107,8 @@ for i_file in files_to_check:
     #whether a given posting is not a prostitute
     if m4w:
         call(['mv', "./"+i_file, "results_men/"])
-        
+
+#I need more time to figure out how to use this...        
 
 # os.chdir("cleaned_results")    
 # files_to_check = glob.glob("*.html")
