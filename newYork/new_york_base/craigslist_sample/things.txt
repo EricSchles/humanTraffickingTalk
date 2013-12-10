@@ -1,0 +1,1512 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>craigslist: new york city classifieds for jobs, apartments, personals, for sale, services, community, and events</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="craigslist provides local classifieds and forums for jobs, housing, for sale, personals, services, local community, and events">
+<meta name="google-site-verification" content="Ie0Do80edB2EurJYj-bxqMdX7zkMjx_FnjtQp_XMFio">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=1">
+<link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/clnew.css?v=9c9bc27562304b153bead04bc5495692">
+<link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/jquery-ui-1.9.2.custom.css?v=cb67f2e720fe8a2c7d83234590b2d1ed">
+<!--[if lt IE 9]>
+<script type="text/javascript" src="//www.craigslist.org/js/html5shiv.js?v=ed7af45dcbda983c8455631037ebcdda" ></script>
+<![endif]-->
+</head>
+<body class="homepage">
+<script type="text/javascript"><!--
+	function C(k){return(document.cookie.match('(^|; )'+k+'=([^;]*)')||0)[2]}
+	var pagetype, pagemode;
+	(function(){
+		var h = document.documentElement;
+		h.className = h.className.replace('nojs', '');
+		var b = document.body;
+		var bodyClassList = b.className.split(/\s+/);;
+		pagetype = bodyClassList[0];
+		var fmt = C('cl_fmt');
+		if (fmt) {
+			pagemode = fmt;
+			bodyClassList.push(fmt);
+		} else if (screen.width <= 480) {
+			pagemode = 'mobile';
+			bodyClassList.push(pagemode);
+		}
+		var width = window.innerWidth || document.documentElement.clientWidth;
+		if (width > 1000) { bodyClassList.push('w1024'); }
+		if (typeof catType !== 'undefined') {
+			var mode = (decodeURIComponent(C('cl_img') || '').match(new RegExp(catType + ':([^,]+)', 'i')) || {})[1];
+			for (var i = 0, len = bodyClassList.length; i < len; i++){
+				if (bodyClassList[i] === 'map') { mode = undefined; }
+			}
+			if (mode) { bodyClassList.push(mode); }
+		}
+		b.className = bodyClassList.join(' ');
+	}());
+--></script>
+
+<div id="mobileformatnotice" style="display: none;">
+	Welcome to the mobile format of craigslist. Looking for the <span class="desktopmode">standard format</span>?
+</div>
+<article id="pagecontainer">
+	<section class="body">
+	<table cellspacing="0" cellpadding="0" summary="page" id="container">
+		<tr>
+			<td id="leftbar">
+
+	
+		<div id="logo">
+			<a href="//www.craigslist.org/about/sites">craigslist</a> 
+		</div>
+
+		<ul id="postlks">
+			<li><a id="post" href="https://post.craigslist.org/c/nyc?lang=en">post to classifieds</a></li>
+			<li><a href="https://accounts.craigslist.org">my account</a></li>
+		</ul>
+
+		<form id="search" action="/search/" method="GET">
+			<div>search craigslist</div>
+            <input type="hidden" name="sort" value="rel">
+			<input type="hidden" name="areaID" id="areaID" value="3">
+			<input type="hidden" name="subAreaID" id="subAreaID" value="">
+			<input id="query" name="query" data-suggest="search" autocorrect="off" autocapitalize="off"><br>
+			<select id="catAbb" name="catAbb">
+				<option value="ccc">community</option>
+				<option value="eee">events</option>
+				<option value="ggg">gigs</option>
+				<option value="hhh">housing</option>
+				<option value="jjj">jobs</option>
+				<option value="ppp">personals</option>
+				<option value="res">resumes</option>
+				<option value="sss" selected="selected">for sale</option>
+				<option value="bbb">services</option>
+			</select>
+			<input id="go" type="submit" value="&gt;">
+		</form>
+
+		
+		<h4 id="calban"><a href="eve/">event calendar</a></h4>
+		<table class="cal" summary="calendar">
+			<tr class="dys"><th>S</th><th>M</th><th>T</th><th>W</th><th>T</th><th>F</th><th>S</th></tr>
+
+			<tr>
+<td><a href="eve/index20131208.html">8</a></td>
+<td><a href="eve/index20131209.html">9</a></td>
+<td class="tdy"><a href="eve/index20131210.html">10</a></td>
+<td><a href="eve/index20131211.html">11</a></td>
+<td><a href="eve/index20131212.html">12</a></td>
+<td><a href="eve/index20131213.html">13</a></td>
+<td><a href="eve/index20131214.html">14</a></td>
+</tr>
+<tr>
+<td><a href="eve/index20131215.html">15</a></td>
+<td><a href="eve/index20131216.html">16</a></td>
+<td><a href="eve/index20131217.html">17</a></td>
+<td><a href="eve/index20131218.html">18</a></td>
+<td><a href="eve/index20131219.html">19</a></td>
+<td><a href="eve/index20131220.html">20</a></td>
+<td><a href="eve/index20131221.html">21</a></td>
+</tr>
+<tr>
+<td><a href="eve/index20131222.html">22</a></td>
+<td><a href="eve/index20131223.html">23</a></td>
+<td><a href="eve/index20131224.html">24</a></td>
+<td><a href="eve/index20131225.html">25</a></td>
+<td><a href="eve/index20131226.html">26</a></td>
+<td><a href="eve/index20131227.html">27</a></td>
+<td><a href="eve/index20131228.html">28</a></td>
+</tr>
+<tr>
+<td><a href="eve/index20131229.html">29</a></td>
+<td><a href="eve/index20131230.html">30</a></td>
+<td><a href="eve/index20131231.html">31</a></td>
+<td><a href="eve/index20140101.html">1</a></td>
+<td><a href="eve/index20140102.html">2</a></td>
+<td><a href="eve/index20140103.html">3</a></td>
+<td><a href="eve/index20140104.html">4</a></td>
+</tr>
+
+		</table>
+	
+
+		<ul class="leftlinks" id="user_resources">
+
+			
+			
+			<li><a href="//www.craigslist.org/about/help/">help, faq, abuse, legal</a></li>
+			<li><a href="//www.craigslist.org/about/scams">avoid scams &amp; fraud</a></li>
+			<li><a href="//www.craigslist.org/about/safety">personal safety tips</a></li>
+			<li><a href="//www.craigslist.org/about/terms.of.use">terms of use <span class="update">new</span></a></li>
+			<li><a href="//www.craigslist.org/about/privacy.policy">privacy policy <span class="update">updated</span></a></li>
+			<li><a href="//www.craigslist.org/about/help/system-status">system status</a></li>
+		</ul>
+
+		<ul class="leftlinks" id="about_craigslist">
+			<li><a href="//www.craigslist.org/about/">about craigslist</a></li>
+            <li><a href="//www.craigslist.org/about/craigslist_is_hiring" style="color: #0b0">craigslist is hiring in sf</a></li>
+			<li><a href="//www.craigslist.org/about/open_source">craigslist open source</a></li>
+			<li><a href="http://blog.craigslist.org/">craigslist blog</a></li>
+			<li><a href="//www.craigslist.org/about/best/all">best-of-craigslist</a></li>
+			<li><a href="http://blip.tv/craigslisttv">craigslist TV</a></li>
+			<li><a href="http://www.craigslistjoe.com/">"craigslist joe"</a></li>
+			<li><a href="http://craigconnects.org/">craig connects</a></li>
+			
+			
+
+		</ul>
+
+		
+			</td>
+
+			<td id="center">
+				<header id="topban" class="ban">
+					<h2>new york city</h2>&nbsp;<sup><a href="http://en.wikipedia.org/wiki/New_York_City">w</a></sup>
+					<span class="sublinks"><a href="/mnh/" title="manhattan">mnh</a><a href="/brk/" title="brooklyn">brk</a><a href="/que/" title="queens">que</a><a href="/brx/" title="bronx">brx</a><a href="/stn/" title="staten island">stn</a><a href="/jsy/" title="new jersey">jsy</a><a href="/lgi/" title="long island">lgi</a><a href="/wch/" title="westchester">wch</a><a href="/fct/" title="fairfield">fct</a></span>
+				</header>
+				<table summary="main" id="main">
+					<tr>
+						<td>
+
+							
+		<div id="ccc" class="col">
+		<h4 class="ban"><a href="ccc/" data-alltitle="all community">community</a></h4>
+		<div class="cats">
+	<ul id="ccc0">
+<li><a href="act/">activities</a></li>
+<li><a href="ats/">artists</a></li>
+<li><a href="kid/">childcare</a></li>
+<li><a href="com/">general</a></li>
+<li><a href="grp/">groups</a></li>
+<li><a href="pet/">pets</a></li>
+<li><a href="eve/">events</a></li>
+</ul>
+<ul id="ccc1">
+<li><a href="laf/">lost+found</a></li>
+<li><a href="muc/">musicians</a></li>
+<li><a href="vnn/">local&nbsp;news</a></li>
+<li><a href="pol/">politics</a></li>
+<li><a href="rid/">rideshare</a></li>
+<li><a href="vol/">volunteers</a></li>
+<li><a href="cls/">classes</a></li>
+</ul>
+</div>
+</div>
+
+
+							
+		<div id="ppp" class="col">
+		<h4 class="ban">personals</h4>
+		<div class="cats">
+	<ul id="ppp0">
+<li><a href="/i/personals?category=stp">strictly platonic</a></li>
+<li><a href="/i/personals?category=w4w">women seek women</a></li>
+<li><a href="/i/personals?category=w4m">women seeking men</a></li>
+<li><a href="/i/personals?category=m4w">men seeking women</a></li>
+<li><a href="/i/personals?category=m4m">men seeking men</a></li>
+<li><a href="/i/personals?category=msr">misc romance</a></li>
+<li><a href="/i/personals?category=cas">casual encounters</a></li>
+<li><a href="/i/personals?category=mis">missed connections</a></li>
+<li><a href="/i/personals?category=rnr">rants and raves</a></li>
+</ul>
+</div>
+</div>
+
+
+							
+		<div id="forums" class="col">
+		<h4 class="ban"><a href="/forums" data-alltitle="">discussion forums</a></h4>
+		<div class="cats">
+	<ul id="forums0">
+<li><a href="/forums/?forumID=2232">adopt</a></li>
+<li><a href="/forums/?forumID=3232">apple</a></li>
+<li><a href="/forums/?forumID=49">arts</a></li>
+<li><a href="/forums/?forumID=78">atheist</a></li>
+<li><a href="/forums/?forumID=5">autos</a></li>
+<li><a href="/forums/?forumID=88">beauty</a></li>
+<li><a href="/forums/?forumID=95">bikes</a></li>
+<li><a href="/forums/?forumID=47">celebs</a></li>
+<li><a href="/forums/?forumID=34">comp</a></li>
+<li><a href="/forums/?forumID=83">crafts</a></li>
+<li><a href="/forums/?forumID=122">diet</a></li>
+<li><a href="/forums/?forumID=76">divorce</a></li>
+<li><a href="/forums/?forumID=130">dying</a></li>
+<li><a href="/forums/?forumID=99">eco</a></li>
+<li><a href="/forums/?forumID=90">educ</a></li>
+<li><a href="/forums/?forumID=8">feedbk</a></li>
+<li><a href="/forums/?forumID=41">film</a></li>
+<li><a href="/forums/?forumID=92">fitness</a></li>
+<li><a href="/forums/?forumID=64">fixit</a></li>
+<li><a href="/forums/?forumID=22">food</a></li>
+<li><a href="/forums/?forumID=2007">frugal</a></li>
+<li><a href="/forums/?forumID=85">gaming</a></li>
+<li><a href="/forums/?forumID=54">garden</a></li>
+</ul>
+<ul id="forums1">
+<li><a href="/forums/?forumID=575">haiku</a></li>
+<li><a href="/forums/?forumID=43">health</a></li>
+<li><a href="/forums/?forumID=9">help</a></li>
+<li><a href="/forums/?forumID=81">history</a></li>
+<li><a href="/forums/?forumID=6">housing</a></li>
+<li><a href="/forums/?forumID=7">jobs</a></li>
+<li><a href="/forums/?forumID=1257">jokes</a></li>
+<li><a href="/forums/?forumID=200269">kink</a></li>
+<li><a href="/forums/?forumID=73">legal</a></li>
+<li><a href="/forums/?forumID=1991">linux</a></li>
+<li><a href="/forums/?forumID=72">m4m</a></li>
+<li><a href="/forums/?forumID=79">manners</a></li>
+<li><a href="/forums/?forumID=1926">marriage</a></li>
+<li><a href="/forums/?forumID=133">media</a></li>
+<li><a href="/forums/?forumID=53">money</a></li>
+<li><a href="/forums/?forumID=1947">motocy</a></li>
+<li><a href="/forums/?forumID=24">music</a></li>
+<li><a href="/forums/?forumID=501">nonprofit</a></li>
+<li><a href="/forums/?forumID=4">open</a></li>
+<li><a href="/forums/?forumID=16">outdoor</a></li>
+<li><a href="/forums/?forumID=50">over 50</a></li>
+<li><a href="/forums/?forumID=39">parent</a></li>
+<li><a href="/forums/?forumID=26">pets</a></li>
+</ul>
+<ul id="forums2">
+<li><a href="/forums/?forumID=71">philos</a></li>
+<li><a href="/forums/?forumID=5500">photo</a></li>
+<li><a href="/forums/?forumID=84">p.o.c.</a></li>
+<li><a href="/forums/?forumID=20">politics</a></li>
+<li><a href="/forums/?forumID=29">psych</a></li>
+<li><a href="/forums/?forumID=46">queer</a></li>
+<li><a href="/forums/?forumID=12">recover</a></li>
+<li><a href="/forums/?forumID=59">religion</a></li>
+<li><a href="/forums/?forumID=28">romance</a></li>
+<li><a href="/forums/?forumID=96">science</a></li>
+<li><a href="/forums/?forumID=93">spirit</a></li>
+<li><a href="/forums/?forumID=32">sports</a></li>
+<li><a href="/forums/?forumID=1040">tax</a></li>
+<li><a href="/forums/?forumID=42">travel</a></li>
+<li><a href="/forums/?forumID=98">tv</a></li>
+<li><a href="/forums/?forumID=2400">vegan</a></li>
+<li><a href="/forums/?forumID=69">w4w</a></li>
+<li><a href="/forums/?forumID=15">wed</a></li>
+<li><a href="/forums/?forumID=120">wine</a></li>
+<li><a href="/forums/?forumID=94">women</a></li>
+<li><a href="/forums/?forumID=7000">words</a></li>
+<li><a href="/forums/?forumID=27">writing</a></li>
+<li><a href="/forums/?forumID=8620">yoga</a></li>
+</ul>
+</div>
+</div>
+
+						</td>
+
+						<td>
+							
+		<div id="hhh" class="col">
+		<h4 class="ban"><a href="hhh/" data-alltitle="all housing">housing</a></h4>
+		<div class="cats">
+	<ul id="hhh0">
+<li><a href="/i/apartments">apts / housing</a></li>
+<li><a href="roo/">rooms / shared</a></li>
+<li><a href="sub/">sublets / temporary</a></li>
+<li><a href="hsw/">housing wanted</a></li>
+<li><a href="swp/">housing swap</a></li>
+<li><a href="vac/">vacation rentals</a></li>
+<li><a href="prk/">parking / storage</a></li>
+<li><a href="off/">office / commercial</a></li>
+<li><a href="rea/">real estate for sale</a></li>
+</ul>
+</div>
+</div>
+
+
+							
+		<div id="sss" class="col">
+		<h4 class="ban"><a href="sss/" data-alltitle="all for sale">for sale</a></h4>
+		<div class="cats">
+	<ul id="sss0">
+<li><a href="ata/">antiques</a></li>
+<li><a href="baa/">baby+kid</a></li>
+<li><a href="bar/">barter</a></li>
+<li><a href="bia/">bikes</a></li>
+<li><a href="boo/">boats</a></li>
+<li><a href="bka/">books</a></li>
+<li><a href="bfa/">business</a></li>
+<li><a href="sya/">computer</a></li>
+<li><a href="zip/">free</a></li>
+<li><a href="fua/">furniture</a></li>
+<li><a href="foa/">general</a></li>
+<li><a href="hsa/">household</a></li>
+<li><a href="jwa/">jewelry</a></li>
+<li><a href="maa/">materials</a></li>
+<li><a href="rva/">rvs+camp</a></li>
+<li><a href="sga/">sporting</a></li>
+<li><a href="tia/">tickets</a></li>
+<li><a href="tla/">tools</a></li>
+<li><a href="waa/">wanted</a></li>
+</ul>
+<ul id="sss1">
+<li><a href="ppa/">appliances</a></li>
+<li><a href="ara/">arts+crafts</a></li>
+<li><a href="sna/">atv/utv/sno</a></li>
+<li><a href="pta/">auto parts</a></li>
+<li><a href="haa/">beauty+hlth</a></li>
+<li><a href="/i/autos">cars+trucks</a></li>
+<li><a href="ema/">cds/dvd/vhs</a></li>
+<li><a href="moa/">cell phones</a></li>
+<li><a href="cla/">clothes+acc</a></li>
+<li><a href="cba/">collectibles</a></li>
+<li><a href="ela/">electronics</a></li>
+<li><a href="gra/">farm+garden</a></li>
+<li><a href="gms/">garage sale</a></li>
+<li><a href="hva/">heavy equip</a></li>
+<li><a href="/i/motorcycles">motorcycles</a></li>
+<li><a href="msa/">music instr</a></li>
+<li><a href="pha/">photo+video</a></li>
+<li><a href="taa/">toys+games</a></li>
+<li><a href="vga/">video gaming</a></li>
+</ul>
+</div>
+</div>
+
+							
+		<div id="bbb" class="col">
+		<h4 class="ban"><a href="bbb/" data-alltitle="all services">services</a></h4>
+		<div class="cats">
+	<ul id="bbb0">
+<li><a href="bts/">beauty</a></li>
+<li><a href="crs/">creative</a></li>
+<li><a href="cps/">computer</a></li>
+<li><a href="cys/">cycle</a></li>
+<li><a href="evs/">event</a></li>
+<li><a href="fns/">financial</a></li>
+<li><a href="lgs/">legal</a></li>
+<li><a href="lss/">lessons</a></li>
+<li><a href="mas/">marine</a></li>
+<li><a href="pas/">pet</a></li>
+</ul>
+<ul id="bbb1">
+<li><a href="aos/">automotive</a></li>
+<li><a href="fgs/">farm+garden</a></li>
+<li><a href="hss/">household</a></li>
+<li><a href="lbs/">labor/move</a></li>
+<li><a href="sks/">skill'd trade</a></li>
+<li><a href="rts/">real estate</a></li>
+<li><a href="biz/">sm biz ads</a></li>
+<li><a href="thp/">therapeutic</a></li>
+<li><a href="trv/">travel/vac</a></li>
+<li><a href="wet/">write/ed/tr8</a></li>
+</ul>
+</div>
+</div>
+
+
+						</td>
+
+						<td>
+
+							
+		<div id="jjj" class="col">
+		<h4 class="ban"><a href="jjj/" data-alltitle="all jobs">jobs</a></h4>
+		<div class="cats">
+	<ul id="jjj0">
+<li><a href="acc/">accounting+finance</a></li>
+<li><a href="ofc/">admin / office</a></li>
+<li><a href="egr/">arch / engineering</a></li>
+<li><a href="med/">art / media / design</a></li>
+<li><a href="sci/">biotech / science</a></li>
+<li><a href="bus/">business / mgmt</a></li>
+<li><a href="csr/">customer service</a></li>
+<li><a href="edu/">education</a></li>
+<li><a href="fbh/">food / bev / hosp</a></li>
+<li><a href="lab/">general labor</a></li>
+<li><a href="gov/">government</a></li>
+<li><a href="hum/">human resources</a></li>
+<li><a href="eng/">internet engineers</a></li>
+<li><a href="lgl/">legal  /  paralegal</a></li>
+<li><a href="mnu/">manufacturing</a></li>
+<li><a href="mar/">marketing / pr / ad</a></li>
+<li><a href="hea/">medical / health</a></li>
+<li><a href="npo/">nonprofit sector</a></li>
+<li><a href="rej/">real estate</a></li>
+<li><a href="ret/">retail / wholesale</a></li>
+<li><a href="sls/">sales / biz dev</a></li>
+<li><a href="spa/">salon / spa / fitness</a></li>
+<li><a href="sec/">security</a></li>
+<li><a href="trd/">skilled trade / craft</a></li>
+<li><a href="sof/">software / qa / dba</a></li>
+<li><a href="sad/">systems / network</a></li>
+<li><a href="tch/">technical support</a></li>
+<li><a href="trp/">transport</a></li>
+<li><a href="tfr/">tv / film / video</a></li>
+<li><a href="web/">web / info design</a></li>
+<li><a href="wri/">writing / editing</a></li>
+<li><a href="etc/">[ETC]</a></li>
+<li><a href="/search/jjj?addFour=part-time">[ part-time ]</a></li>
+</ul>
+</div>
+</div>
+
+
+							
+		<div id="ggg" class="col">
+		<h4 class="ban"><a href="ggg/" data-alltitle="all gigs">gigs</a></h4>
+		<div class="cats">
+	<ul id="ggg0">
+<li><a href="cwg/">crew</a></li>
+<li><a href="evg/">event</a></li>
+<li><a href="lbg/">labor</a></li>
+<li><a href="tlg/">talent</a></li>
+</ul>
+<ul id="ggg1">
+<li><a href="cpg/">computer</a></li>
+<li><a href="crg/">creative</a></li>
+<li><a href="dmg/">domestic</a></li>
+<li><a href="wrg/">writing</a></li>
+</ul>
+</div>
+</div>
+
+		<div id="res" class="col">
+		<h4 class="ban"><a href="res/" data-alltitle="all resumes">resumes</a></h4>
+		<div class="cats">
+	</div>
+</div>
+
+
+
+						</td>
+					</tr>
+				</table>
+			</td>
+
+			<td id="rightbar">
+				
+				<ul class="menu collapsible"><li class=" expand s"><h5 class="ban">nearby cl</h5><ul class="acitem">
+<li class="s"><a href="http://albany.craigslist.org">albany</a>
+<li class="s"><a href="http://allentown.craigslist.org">allentown</a>
+<li class="s"><a href="http://baltimore.craigslist.org">baltimore</a>
+<li class="s"><a href="http://binghamton.craigslist.org">binghamton</a>
+<li class="s"><a href="http://catskills.craigslist.org">catskills</a>
+<li class="s"><a href="http://cnj.craigslist.org">central nj</a>
+<li class="s"><a href="http://delaware.craigslist.org">delaware</a>
+<li class="s"><a href="http://newlondon.craigslist.org">eastern ct</a>
+<li class="s"><a href="http://harrisburg.craigslist.org">harrisburg</a>
+<li class="s"><a href="http://hartford.craigslist.org">hartford</a>
+<li class="s"><a href="http://hudsonvalley.craigslist.org">hudson valley</a>
+<li class="s"><a href="http://jerseyshore.craigslist.org">jersey shore</a>
+<li class="s"><a href="http://lancaster.craigslist.org">lancaster</a>
+<li class="s"><a href="http://longisland.craigslist.org">long island</a>
+<li class="s"><a href="http://newhaven.craigslist.org">new haven</a>
+<li class="s"><a href="http://newyork.craigslist.org">new york</a>
+<li class="s"><a href="http://newjersey.craigslist.org">north jersey</a>
+<li class="s"><a href="http://nwct.craigslist.org">northwest ct</a>
+<li class="s"><a href="http://oneonta.craigslist.org">oneonta</a>
+<li class="s"><a href="http://philadelphia.craigslist.org">philadelphia</a>
+<li class="s"><a href="http://poconos.craigslist.org">poconos</a>
+<li class="s"><a href="http://reading.craigslist.org">reading</a>
+<li class="s"><a href="http://providence.craigslist.org">rhode island</a>
+<li class="s"><a href="http://scranton.craigslist.org">scranton</a>
+<li class="s"><a href="http://southcoast.craigslist.org">south coast</a>
+<li class="s"><a href="http://southjersey.craigslist.org">south jersey</a>
+<li class="s"><a href="http://westernmass.craigslist.org">western mass</a>
+<li class="s"><a href="http://williamsport.craigslist.org">williamsport</a>
+<li class="s"><a href="http://worcester.craigslist.org">worcester</a>
+<li class="s"><a href="http://york.craigslist.org">york</a>
+</ul>
+</li><li class=" s"><h5 class="ban">us cities</h5><ul class="acitem">
+<li class="s"><a href="http://atlanta.craigslist.org/">atlanta</a>
+<li><a href="http://austin.craigslist.org/">austin</a>
+<li class="s"><a href="http://boston.craigslist.org/">boston</a>
+<li class="s"><a href="http://chicago.craigslist.org/">chicago</a>
+<li><a href="http://dallas.craigslist.org/">dallas</a>
+<li><a href="http://denver.craigslist.org/">denver</a>
+<li class="s"><a href="http://detroit.craigslist.org/">detroit</a>
+<li><a href="http://houston.craigslist.org/">houston</a>
+<li class="s"><a href="http://lasvegas.craigslist.org/">las&nbsp;vegas</a>
+<li class="s"><a href="http://losangeles.craigslist.org/">los&nbsp;angeles</a>
+<li><a href="http://miami.craigslist.org/">miami</a>
+<li><a href="http://minneapolis.craigslist.org/">minneapolis</a>
+<li class="s"><a href="http://newyork.craigslist.org/">new&nbsp;york</a>
+<li><a href="http://orangecounty.craigslist.org/">orange&nbsp;co</a>
+<li class="s"><a href="http://philadelphia.craigslist.org/">philadelphia</a>
+<li><a href="http://phoenix.craigslist.org/">phoenix</a>
+<li class="s"><a href="http://portland.craigslist.org/">portland</a>
+<li><a href="http://raleigh.craigslist.org/">raleigh</a>
+<li><a href="http://sacramento.craigslist.org/">sacramento</a>
+<li><a href="http://sandiego.craigslist.org/">san&nbsp;diego</a>
+<li><a href="http://seattle.craigslist.org/">seattle</a>
+<li class="s"><a href="http://sfbay.craigslist.org/">sf&nbsp;bayarea</a>
+<li><a href="http://washingtondc.craigslist.org/">wash dc</a>
+<li class="s more"><a href="http://geo.craigslist.org/iso/us">more ...</a></li>
+</ul>
+</li><li class=""><h5 class="ban">us states</h5><ul class="acitem">
+<li><a href="http://geo.craigslist.org/iso/us/al">alabama</a>
+<li><a href="http://geo.craigslist.org/iso/us/ak">alaska</a>
+<li><a href="http://geo.craigslist.org/iso/us/az">arizona</a>
+<li><a href="http://geo.craigslist.org/iso/us/ar">arkansas</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/ca">california</a>
+<li><a href="http://geo.craigslist.org/iso/us/co">colorado</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/ct">connecticut</a>
+<li><a href="http://geo.craigslist.org/iso/us/dc">dc</a>
+<li><a href="http://geo.craigslist.org/iso/us/de">delaware</a>
+<li><a href="http://geo.craigslist.org/iso/us/fl">florida</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/ga">georgia</a>
+<li><a href="http://micronesia.craigslist.org">guam</a>
+<li><a href="http://geo.craigslist.org/iso/us/hi">hawaii</a>
+<li><a href="http://geo.craigslist.org/iso/us/id">idaho</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/il">illinois</a>
+<li><a href="http://geo.craigslist.org/iso/us/in">indiana</a>
+<li><a href="http://geo.craigslist.org/iso/us/ia">iowa</a>
+<li><a href="http://geo.craigslist.org/iso/us/ks">kansas</a>
+<li><a href="http://geo.craigslist.org/iso/us/ky">kentucky</a>
+<li><a href="http://geo.craigslist.org/iso/us/la">louisiana</a>
+<li><a href="http://geo.craigslist.org/iso/us/me">maine</a>
+<li><a href="http://geo.craigslist.org/iso/us/md">maryland</a>
+<li><a href="http://geo.craigslist.org/iso/us/ma">mass</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/mi">michigan</a>
+<li><a href="http://geo.craigslist.org/iso/us/mn">minnesota</a>
+<li><a href="http://geo.craigslist.org/iso/us/ms">mississippi</a>
+<li><a href="http://geo.craigslist.org/iso/us/mo">missouri</a>
+<li><a href="http://geo.craigslist.org/iso/us/mt">montana</a>
+<li><a href="http://geo.craigslist.org/iso/us/nc">n carolina</a>
+<li><a href="http://geo.craigslist.org/iso/us/ne">nebraska</a>
+<li><a href="http://geo.craigslist.org/iso/us/nv">nevada</a>
+<li><a href="http://geo.craigslist.org/iso/us/nj">new jersey</a>
+<li><a href="http://geo.craigslist.org/iso/us/nm">new mexico</a>
+<li><a href="http://geo.craigslist.org/iso/us/ny">new york</a>
+<li><a href="http://geo.craigslist.org/iso/us/nh">n hampshire</a>
+<li><a href="http://geo.craigslist.org/iso/us/nd">north dakota</a>
+<li><a href="http://geo.craigslist.org/iso/us/oh">ohio</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/ok">oklahoma</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/or">oregon</a>
+<li><a href="http://geo.craigslist.org/iso/us/pa">pennsylvania</a>
+<li><a href="http://geo.craigslist.org/iso/pr">puerto rico</a>
+<li><a href="http://geo.craigslist.org/iso/us/ri">rhode island</a>
+<li><a href="http://geo.craigslist.org/iso/us/sc">s carolina</a>
+<li><a href="http://geo.craigslist.org/iso/us/sd">south dakota</a>
+<li><a href="http://geo.craigslist.org/iso/us/tn">tennessee</a>
+<li><a href="http://geo.craigslist.org/iso/us/tx">texas</a>
+<li><a href="http://geo.craigslist.org/iso/us/ut">utah</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/vt">vermont</a>
+<li><a href="http://geo.craigslist.org/iso/us/va">virginia</a>
+<li><a href="http://geo.craigslist.org/iso/us/wa">washington</a>
+<li><a href="http://geo.craigslist.org/iso/us/wv">west virginia</a>
+<li><a href="http://geo.craigslist.org/iso/us/wi">wisconsin</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/us/wy">wyoming</a>
+<li class="s more"><a href="http://geo.craigslist.org/iso/us">more ...</a></li>
+</ul>
+</li><li class=" s"><h5 class="ban">canada</h5><ul class="acitem">
+<li><a href="http://calgary.craigslist.ca">calgary</a>
+<li><a href="http://edmonton.craigslist.ca">edmonton</a>
+<li><a href="http://halifax.craigslist.ca">halifax</a>
+<li class="s"><a href="http://montreal.craigslist.ca">montreal</a>
+<li><a href="http://ottawa.craigslist.ca">ottawa</a>
+<li><a href="http://saskatoon.craigslist.ca">saskatoon</a>
+<li class="s"><a href="http://toronto.craigslist.ca">toronto</a>
+<li><a href="http://vancouver.craigslist.ca">vancouver</a>
+<li class="s"><a href="http://victoria.craigslist.ca">victoria</a>
+<li><a href="http://winnipeg.craigslist.ca">winnipeg</a>
+<li class="s more"><a href="http://geo.craigslist.org/iso/ca">more ...</a></li>
+</ul>
+</li><li><h5 class="ban">cl worldwide</h5><ul class="acitem collapsible">
+
+				<li class="cont s">
+					<h5>africa</h5>
+					<ul class="acitem">
+			<li class="s"><a href="http://geo.craigslist.org/iso/eg">egypt</a>
+<li><a href="http://geo.craigslist.org/iso/et">ethiopia</a>
+<li><a href="http://geo.craigslist.org/iso/gh">ghana</a>
+<li><a href="http://geo.craigslist.org/iso/ke">kenya</a>
+<li><a href="http://geo.craigslist.org/iso/ma">morocco</a>
+<li><a href="http://craigslist.co.za">south africa</a>
+<li><a href="http://geo.craigslist.org/iso/tn">tunisia</a>
+</ul></li>
+
+				<li class="cont s">
+					<h5>americas</h5>
+					<ul class="acitem">
+			<li><a href="http://geo.craigslist.org/iso/ar">argentina</a>
+<li><a href="http://geo.craigslist.org/iso/bo">bolivia</a>
+<li class="s"><a href="http://rio.craigslist.org">brazil</a>
+<li><a href="http://www.craigslist.org/about/sites#CA">canada</a>
+<li class="s"><a href="http://caribbean.craigslist.org">caribbean</a>
+<li><a href="http://geo.craigslist.org/iso/cl">chile</a>
+<li><a href="http://geo.craigslist.org/iso/co">colombia</a>
+<li><a href="http://geo.craigslist.org/iso/cr">costa rica</a>
+<li><a href="http://geo.craigslist.org/iso/do">dom republic</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/ec">ecuador</a>
+<li><a href="http://geo.craigslist.org/iso/sv">el salvador</a>
+<li><a href="http://geo.craigslist.org/iso/gt">guatemala</a>
+<li class="s"><a href="http://mexicocity.craigslist.com.mx">mexico</a>
+<li><a href="http://geo.craigslist.org/iso/ni">nicaragua</a>
+<li><a href="http://geo.craigslist.org/iso/pa">panama</a>
+<li class="s"><a href="http://craigslist.com.pe">peru</a>
+<li><a href="http://geo.craigslist.org/iso/pr">puerto rico</a>
+<li><a href="http://www.craigslist.org/about/sites#US">united states</a>
+<li><a href="http://geo.craigslist.org/iso/uy">uruguay</a>
+<li><a href="http://geo.craigslist.org/iso/vi">us virgin islands</a>
+<li><a href="http://geo.craigslist.org/iso/ve">venezuela</a>
+</ul></li>
+
+				<li class="cont s">
+					<h5>asia</h5>
+					<ul class="acitem">
+			<li class="s"><a href="http://geo.craigslist.org/iso/bd">bangladesh</a>
+<li><a href="http://shanghai.craigslist.com.cn">china</a>
+<li><a href="http://craigslist.hk">hong kong</a>
+<li class="s"><a href="http://bangalore.craigslist.co.in">india</a>
+<li><a href="http://geo.craigslist.org/iso/id">indonesia</a>
+<li><a href="http://geo.craigslist.org/iso/ir">iran</a>
+<li><a href="http://geo.craigslist.org/iso/iq">iraq</a>
+<li><a href="http://telaviv.craigslist.org">israel</a>
+<li class="s"><a href="http://tokyo.craigslist.jp">japan</a>
+<li><a href="http://geo.craigslist.org/iso/kw">kuwait</a>
+<li><a href="http://geo.craigslist.org/iso/lb">lebanon</a>
+<li><a href="http://geo.craigslist.org/iso/my">malaysia</a>
+<li><a href="http://geo.craigslist.org/iso/pk">pakistan</a>
+<li><a href="http://manila.craigslist.com.ph">philippines</a>
+<li class="s"><a href="http://moscow.craigslist.org">russia</a>
+<li><a href="http://craigslist.com.sg">singapore</a>
+<li><a href="http://geo.craigslist.org/iso/kr">south korea</a>
+<li class="s"><a href="http://craigslist.com.tw">taiwan</a>
+<li><a href="http://geo.craigslist.org/iso/th">thailand</a>
+<li><a href="http://craigslist.com.tr">turkey</a>
+<li><a href="http://geo.craigslist.org/iso/ae">uae</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/vn">vietnam</a>
+<li><a href="http://geo.craigslist.org/iso/ps">west bank</a>
+</ul></li>
+
+				<li class="cont s">
+					<h5>europe</h5>
+					<ul class="acitem">
+			<li><a href="http://craigslist.at">austria</a>
+<li><a href="http://craigslist.be">belgium</a>
+<li><a href="http://geo.craigslist.org/iso/bg">bulgaria</a>
+<li><a href="http://geo.craigslist.org/iso/hr">croatia</a>
+<li><a href="http://geo.craigslist.org/iso/cz">czech republic</a>
+<li><a href="http://craigslist.dk">denmark</a>
+<li><a href="http://craigslist.fi">finland</a>
+<li><a href="http://paris.craigslist.fr">france</a>
+<li><a href="http://berlin.craigslist.de">germany</a>
+<li><a href="http://craigslist.gr">greece</a>
+<li><a href="http://geo.craigslist.org/iso/hu">hungary</a>
+<li><a href="http://geo.craigslist.org/iso/is">iceland</a>
+<li><a href="http://geo.craigslist.org/iso/ie">ireland</a>
+<li class="s"><a href="http://rome.craigslist.it">italy</a>
+<li><a href="http://geo.craigslist.org/iso/lu">luxembourg</a>
+<li><a href="http://geo.craigslist.org/iso/nl">netherlands</a>
+<li class="s"><a href="http://geo.craigslist.org/iso/no">norway</a>
+<li><a href="http://craigslist.pl">poland</a>
+<li class="s"><a href="http://craigslist.pt">portugal</a>
+<li><a href="http://geo.craigslist.org/iso/ro">romania</a>
+<li class="s"><a href="http://moscow.craigslist.org">russia</a>
+<li class="s"><a href="http://madrid.craigslist.es">spain</a>
+<li><a href="http://craigslist.se">sweden</a>
+<li><a href="http://zurich.craigslist.ch">switzerland</a>
+<li><a href="http://craigslist.com.tr">turkey</a>
+<li><a href="http://geo.craigslist.org/iso/ua">ukraine</a>
+<li><a href="http://craigslist.co.uk">united kingdom</a>
+</ul></li>
+
+				<li class="cont s">
+					<h5>middle east</h5>
+					<ul class="acitem">
+			<li class="s"><a href="http://geo.craigslist.org/iso/eg">egypt</a>
+<li><a href="http://geo.craigslist.org/iso/iq">iraq</a>
+<li><a href="http://telaviv.craigslist.org">israel</a>
+<li><a href="http://geo.craigslist.org/iso/kw">kuwait</a>
+<li><a href="http://geo.craigslist.org/iso/lb">lebanon</a>
+<li><a href="http://craigslist.com.tr">turkey</a>
+<li><a href="http://geo.craigslist.org/iso/ae">uae</a>
+<li><a href="http://geo.craigslist.org/iso/ps">west bank</a>
+</ul></li>
+
+				<li class="cont s">
+					<h5>oceania</h5>
+					<ul class="acitem">
+			<li><a href="http://sydney.craigslist.com.au">australia</a>
+<li><a href="http://geo.craigslist.org/iso/gu">guam</a>
+<li><a href="http://auckland.craigslist.org">new zealand</a>
+<li><a href="http://manila.craigslist.com.ph">philippines</a>
+</ul></li>
+</ul>
+</li>
+		</ul>
+		<br>
+		<p class="more">
+			<a href="http://www.craigslist.org/about/sites"><em>more...</em></a>
+		</p>
+	
+			</td>
+
+		</tr>
+	</table>
+	</section>
+
+	<ul id="fmtsel">
+	<li><b>FORMAT:</b></li>
+	<li class="fsel" data-mode="mobile">mobile</li>
+	<li class="fsel" data-mode="regular">standard</li>
+</ul>
+<footer>
+	
+	<ul class="clfooter">
+		<li>&copy; 2013 craigslist</li>
+		<li><a href="//www.craigslist.org/about/help/">help</a></li>
+		<li><a href="//www.craigslist.org/about/terms.of.use">terms</a></li>
+		<li><a href="//www.craigslist.org/about/privacy.policy">privacy</a></li>
+		<li><a href="//www.craigslist.org/about/scams">safety</a></li>
+		<li><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+		<li><a href="//www.craigslist.org/about/">about</a></li>
+		<li><a href="//www.craigslist.org/about/craigslist_is_hiring" style="color: #0b0">cl jobs</a></li>
+	</ul>
+</footer>
+</article>
+
+		<script type="text/javascript"><!--
+			var allText = "all";
+
+		--></script>
+	
+<script type="text/javascript" src="//www.craigslist.org/js/jquery-1.9.1.js?v=56eaef3b8a28d9d45bb4f86004b0eaae" ></script>
+<script type="text/javascript" src="//www.craigslist.org/js/jquery-ui-1.9.2.custom.js?v=32c38510c8db71f2fbef00da891aeaac" ></script>
+<script type="text/javascript" src="//www.craigslist.org/js/homepage.js?v=b5dfa37dc2db91447dd40d7d40548f55" ></script>
+<script type="text/javascript" src="//www.craigslist.org/js/formats.js?v=de0b68316eab03f147c3451853448c58" ></script>
+<script type="text/javascript" src="//www.craigslist.org/js/suggestions.js?v=febb5f24aa5f9fa0b8d744f6bed5eaaa" ></script>
+<script type="text/javascript" src="//www.craigslist.org/js/tocs.js?v=184ae74e9c8c08a59fdf19980d70f699" defer async></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html class="nojs"><head>
+    <title>new york city casual encounters classifieds  - craigslist</title>
+
+    <meta name="description" content="new york city casual encounters classifieds  - craigslist">
+    <link rel="alternate" type="application/rss+xml" href="/cas/index.rss" title="RSS feed for craigslist | casual encounters  in new york city ">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=1">
+    <link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/clnew.css?v=9c9bc27562304b153bead04bc5495692">
+    <link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/jquery-ui-1.9.2.custom.css?v=cb67f2e720fe8a2c7d83234590b2d1ed">
+    <meta http-equiv="PICS-Label" content='(PICS-1.1 "http://craigslist.org/" l gen true comment by "robot\@craigslist.org" on "2007.11.15T16:591600" for "http://www.craigslist.org/cas/" r (Gam 0 V 0 Env 0 SF 0 Com 0 Can 0 Edu 0 S 5 P 0 Tol 0 MC -2 ))'>
+    
+    
+		<script type="text/javascript"><!--
+			var currencySymbol = null;
+var zoomToPosting = null;
+var showInfoText = "show info";
+var imageHost = "http://images.craigslist.org";
+var areaId = "3";
+var lessInfoText = "less info";
+var showMapTabs = 0;
+var areaCountry = "US";
+var starHint = "save this post in your favorites list";
+var expFaves = null;
+var pID = null;
+var catAbb = "cas";
+var catType = "ppp";
+
+		--></script>
+	
+    
+		<script type="text/javascript"><!--
+			var lsDomain = "www";
+
+		--></script>
+	
+    <!--[if lt IE 9]>
+<script type="text/javascript" src="//www.craigslist.org/js/html5shiv.js?v=ed7af45dcbda983c8455631037ebcdda" ></script>
+<![endif]-->
+</head>
+
+<body class="toc">
+    <script type="text/javascript"><!--
+	function C(k){return(document.cookie.match('(^|; )'+k+'=([^;]*)')||0)[2]}
+	var pagetype, pagemode;
+	(function(){
+		var h = document.documentElement;
+		h.className = h.className.replace('nojs', '');
+		var b = document.body;
+		var bodyClassList = b.className.split(/\s+/);;
+		pagetype = bodyClassList[0];
+		var fmt = C('cl_fmt');
+		if (fmt) {
+			pagemode = fmt;
+			bodyClassList.push(fmt);
+		} else if (screen.width <= 480) {
+			pagemode = 'mobile';
+			bodyClassList.push(pagemode);
+		}
+		var width = window.innerWidth || document.documentElement.clientWidth;
+		if (width > 1000) { bodyClassList.push('w1024'); }
+		if (typeof catType !== 'undefined') {
+			var mode = (decodeURIComponent(C('cl_img') || '').match(new RegExp(catType + ':([^,]+)', 'i')) || {})[1];
+			for (var i = 0, len = bodyClassList.length; i < len; i++){
+				if (bodyClassList[i] === 'map') { mode = undefined; }
+			}
+			if (mode) { bodyClassList.push(mode); }
+		}
+		b.className = bodyClassList.join(' ');
+	}());
+--></script>
+
+
+    <article id="pagecontainer">
+
+        <header class="bchead">
+	<div class="contents closed">
+		<div class="topright_box">
+			<div id="ef">
+	[ <a href="http://www.craigslist.org/about/help/">help</a> ] 
+	[ <a href="https://post.craigslist.org/c/nyc?lang=en">post</a> ]
+</div>
+			<div id="favorites">
+    <a href="#" class="favlink"><span class="n">0</span> favorites</a>
+</div>
+		</div>
+		<div class="dropdown down">&or;</div>
+		<div class="dropdown up">&and;</div>
+		<div class="leftside">
+            <button class="back">&lt;</button>
+            <div class="breadbox">
+                <div class="breadcrumbs">
+                    <span class="crumb"><a href="//www.craigslist.org/about/sites">CL</a></span>
+                    <span class="crumb"><a href="/">new york</a></span>    <span class="crumb"><a href="/ppp/">personals</a></span> <span class="crumb"><a href="/cas/">casual encounters</a></span>
+                </div>
+            </div>
+		</div>
+        <div id="satabs" class="tabcontainer"><b>all new york</b><a href="/mnh/cas/">manhattan</a><a href="/brk/cas/">brooklyn</a><a href="/que/cas/">queens</a><a href="/brx/cas/">bronx</a><a href="/stn/cas/">staten island</a><a href="/jsy/cas/">new jersey</a><a href="/lgi/cas/">long island</a><a href="/wch/cas/">westchester</a><a href="/fct/cas/">fairfield</a></div>
+
+	</div>
+</header>
+
+        <blockquote class="searchform">
+            
+		<script type="text/javascript"><!--
+			var catAbb = "cas";
+
+		--></script>
+	
+<form action="/search/cas" id="searchform" method="get" accept-charset="utf-8">
+
+    <fieldset id="searchfieldset">
+    <legend id="searchlegend"><select id="catAbb" name="catAbb">
+
+                <option value="ccc">all community
+
+                <option value="eee">all event
+
+                <option value="sss">all for sale / wanted
+
+                <option value="ggg">all gigs
+
+                <option value="hhh">all housing
+
+                <option value="jjj">all jobs
+
+                <option value="ppp">all personals
+<option disabled value="">--
+<option value="cas" selected> casual encounters
+<option value="m4m"> men seeking men
+<option value="m4w"> men seeking women
+<option value="msr"> misc romance
+<option value="mis"> missed connections
+<option value="rnr"> rants &amp; raves
+<option value="stp"> strictly platonic
+<option value="w4m"> women seeking men
+<option value="w4w"> women seeking women
+<option disabled value="">--
+
+                <option value="res">all resume
+
+                <option value="bbb">all services offered
+</select></legend>
+	<div class="experimentalFeature">
+    	     
+    	</div>
+	<div id="searchtable">
+		<span class="searchgroup">
+			<span>
+				<input id="query" name="query" data-suggest="search" size="24" value="" placeholder="search" autocorrect="off" autocapitalize="off">
+			</span>
+			<input id="searchbtn" type="submit" value="search">
+		</span>
+		<span class="searchgroup">
+			<span id="searchchecks">
+				<input type="checkbox" name="useMap" id="useMap" style="display:none;" value="1">
+				<input id="zoomtoposting" type="hidden" name="zoomToPosting" value="">
+			</span>
+		</span>
+
+		
+
+		<span class="searchgroup">
+	age:
+	<input name="minAsk" class="min" size="5" placeholder="min" value="">
+	<input name="maxAsk" class="max" size="5" placeholder="max" value="">
+</span>
+
+		
+		<span class="searchgroup">
+			<label>
+				<input type="checkbox" name="hasPic" value="1" ><span class="haspic">pic</span>
+			</label>
+			<label>
+					<input type="checkbox" name="srchType" value="T"
+					title="search only posting titles">title
+			</label>
+		</span>
+
+        
+	</div>
+    </fieldset>
+</form>
+        </blockquote>
+
+        <section class="body">
+            <section class="favlistinfo">
+                
+                
+            </section>
+
+            <div id="toc_rows">
+                <div class="toc_legend">
+                    <div class="center">
+                        <span class="tocview buttongroup"><a href="#list" title="show results in a list" class="mode button" data-view="list" id="listview">list</a><a href="#pic" title="show results in a list with thumbnail pictures" class="mode button" data-view="pic" id="picview">thumb</a><a href="#grid" title="show results side-by-side with larger pictures" class="mode button" data-view="grid" id="gridview">gallery</a></span><span class="paginator buttongroup">
+<span class="button first" title="first page"> &lt;&lt; </span><span class="button prev" title="previous page"> &lt; prev </span><span class="button pagenum">1 - 100 </span><a href='/cas/index100.html' class="button next" title="next page"> next &gt; </a>
+</span><span class="tocsort buttongroup"><span class="button sel">newest</span></span>
+                    </div>
+                </div>
+
+                <div class="content">
+                    
+                    <h4 class="ban"><span class="bantext">Tue Dec 10</span></h4>
+ <p class="row" data-pid="4238069029"> <a href="/mnh/cas/4238069029.html" class="i" data-id="0:01111_lPXlgoEwbp3"><span class="price">25</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238069029.html">Looking to have and give good time top or bottom safe only  - m4t</a> </span> <span class="l2"> <span class="price">25</span>  <span class="pnr"> <small> (Midtown)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238057537"> <a href="/wch/cas/4238057537.html" class="i"><span class="price">26</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/wch/cas/4238057537.html">This isn't the kind of snow I had in mind!  - w4m</a> </span> <span class="l2"> <span class="price">26</span>  <span class="pnr"> <small> (Yonkers)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238078989"> <a href="/que/cas/4238078989.html" class="i"><span class="price">65</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4238078989.html">ladyboy please call me - m4t</a> </span> <span class="l2"> <span class="price">65</span>  <span class="pnr"> <small> (queens)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4233990122"> <a href="/wch/cas/4233990122.html" class="i" data-id="0:00U0U_awsPWLolXMO"><span class="price">20</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/wch/cas/4233990122.html">Call Now For SHAYS Uncovered Blow Jobs Starting 80 Cal - w4m</a> </span> <span class="l2"> <span class="price">20</span>  <span class="pnr"> <small> (YONKERS MY PLACE)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238073360"> <a href="/brk/cas/4238073360.html" class="i" data-id="0:00W0W_bfGeEsyIc95"><span class="price">23</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4238073360.html">JERK BUDS - m4m</a> </span> <span class="l2"> <span class="price">23</span>  <span class="pnr"> <small> (brooklyn)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4230740104"> <a href="/mnh/cas/4230740104.html" class="i" data-id="0:00000_gd9OQJ0kbba"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4230740104.html">Straight but horny - m4m</a> </span> <span class="l2">   <span class="pnr"> <small> (Hung for cocksucker)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234097128"> <a href="/brx/cas/4234097128.html" class="i" data-id="0:01111_cyISdM3Pm4G"><span class="price">20</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4234097128.html">Call Now For SHAYS Uncovered Blow Jobs Starting 80 Cal - w4m</a> </span> <span class="l2"> <span class="price">20</span>  <span class="pnr"> <small> (NORTHBRONX/YONKERS MY PLACE)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237879205"> <a href="/mnh/cas/4237879205.html" class="i" data-id="0:00M0M_2EKFbwfty9i"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237879205.html">Jenny Has a Secret! - w4m</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (East)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238077356"> <a href="/mnh/cas/4238077356.html" class="i" data-id="0:00L0L_yDbdDrBQgE"><span class="price">25</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238077356.html">chill buddy - m4m</a> </span> <span class="l2"> <span class="price">25</span>  <span class="pnr"> <small> (Inwood / Wash Hts)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238077151"> <a href="/mnh/cas/4238077151.html" class="i"><span class="price">25</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238077151.html">Naughty Top Tchick Bored and Horny - t4m</a> </span> <span class="l2"> <span class="price">25</span>  <span class="pnr"> <small> (Manhattan)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234211614"> <a href="/brk/cas/4234211614.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4234211614.html"> DADDIES...GRANDNPAS....LETS CHAT - w4m</a> </span> <span class="l2">   <span class="pnr"> <small> (BAY RIDGE)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238076768"> <a href="/brx/cas/4238076768.html" class="i" data-id="0:00o0o_hFCdPXBtrYa"><span class="price">18</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4238076768.html">Hey lets do something ! - m4w</a> </span> <span class="l2"> <span class="price">18</span>  <span class="pnr"> <small> (your place/my place)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4230746683"> <a href="/fct/cas/4230746683.html" class="i"><span class="price">26</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/fct/cas/4230746683.html">any uncut lovers? - m4w</a> </span> <span class="l2"> <span class="price">26</span>  <span class="pnr"> <small> (CT)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4208350414"> <a href="/lgi/cas/4208350414.html" class="i" data-id="0:00a0a_4tGC2Wk8Me4"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/lgi/cas/4208350414.html">YOUNG GUY SEEKS GIRL FOR SOME FUN:) - m4w</a> </span> <span class="l2">   <span class="pnr">  <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237938824"> <a href="/lgi/cas/4237938824.html" class="i" data-id="0:00G0G_fWGfLRyN2AG"><span class="price">22</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/lgi/cas/4237938824.html">PRETTY MIX LATINA READY NOW * VISTING * - t4m</a> </span> <span class="l2"> <span class="price">22</span>  <span class="pnr"> <small> (FARMINGDALE/ ROUTE 110)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4229513467"> <a href="/mnh/cas/4229513467.html" class="i"><span class="price">45</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4229513467.html">I Suck Off Hung Straight Guys - m4m</a> </span> <span class="l2"> <span class="price">45</span>  <span class="pnr"> <small> (Chelsea)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238060073"> <a href="/mnh/cas/4238060073.html" class="i"><span class="price">22</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238060073.html">LATINA IN TOWN FOR A NITE !!!! - w4m</a> </span> <span class="l2"> <span class="price">22</span>  <span class="pnr"> <small> (Midtown)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4228469825"> <a href="/lgi/cas/4228469825.html" class="i"><span class="price">23</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/lgi/cas/4228469825.html">looking for young hs guys or college freshman - m4m</a> </span> <span class="l2"> <span class="price">23</span>  <span class="pnr"> <small> (east meadow)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4223116677"> <a href="/stn/cas/4223116677.html" class="i" data-id="0:00t0t_dLeDkXA0ySB"><span class="price">49</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/stn/cas/4223116677.html">if you like getting - m4m</a> </span> <span class="l2"> <span class="price">49</span>  <span class="pnr"> <small> (staten island)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238038958"> <a href="/lgi/cas/4238038958.html" class="i" data-id="0:00D0D_bHcUn4Xynha"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/lgi/cas/4238038958.html">blow and go! - m4m</a> </span> <span class="l2">   <span class="pnr"> <small> (nassau only)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238073586"> <a href="/lgi/cas/4238073586.html" class="i" data-id="0:00i0i_mst3e2CRH9"><span class="price">40</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/lgi/cas/4238073586.html">Looking to sub - m4m</a> </span> <span class="l2"> <span class="price">40</span>  <span class="pnr"> <small> (Suffolk)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4228668419"> <a href="/mnh/cas/4228668419.html" class="i"><span class="price">2023</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4228668419.html">interacial  couple seeks female - mw4w</a> </span> <span class="l2"> <span class="price">2023</span>  <span class="pnr"> <small> (Upper West Side)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4189324404"> <a href="/brk/cas/4189324404.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4189324404.html">watch you masturbate - m4w</a> </span> <span class="l2">   <span class="pnr">  <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4231754915"> <a href="/que/cas/4231754915.html" class="i"><span class="price">23</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4231754915.html">Sara BJ Special - w4m</a> </span> <span class="l2"> <span class="price">23</span>  <span class="pnr"> <small> (Queens)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237969582"> <a href="/que/cas/4237969582.html" class="i"><span class="price">26</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4237969582.html">Haitian/ Dominican man Looking for a couple  - m4mw</a> </span> <span class="l2"> <span class="price">26</span>  <span class="pnr"> <small> (Flushing )</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238049516"> <a href="/que/cas/4238049516.html" class="i"><span class="price">68</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4238049516.html">TS/TG, any age, for Breast Play - m4t</a> </span> <span class="l2"> <span class="price">68</span>  <span class="pnr"> <small> (Anywhere)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4187588296"> <a href="/mnh/cas/4187588296.html" class="i"><span class="price">35</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4187588296.html">DESPERATELY LOOKING FOR A HAIRY BUSH  - m4w</a> </span> <span class="l2"> <span class="price">35</span>  <span class="pnr"> <small> (Upper East Side)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4233208263"> <a href="/brk/cas/4233208263.html" class="i"><span class="price">29</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4233208263.html">Hot/Hung Looking For a FIT Girl w/ a Bigger, Oversized, Heavy Butt - m4w</a> </span> <span class="l2"> <span class="price">29</span>  <span class="pnr"> <small> (Williamsburg)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237929758"> <a href="/mnh/cas/4237929758.html" class="i"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237929758.html">Muse? Distraction Needed. - m4w</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (Manhattan)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238023909"> <a href="/mnh/cas/4238023909.html" class="i" data-id="0:00i0i_7tNSh4WCu0Q"><span class="price">26</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238023909.html">Thick black dick looking to travel  - m4m</a> </span> <span class="l2"> <span class="price">26</span>  <span class="pnr"> <small> (Union Square)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237952379"> <a href="/brx/cas/4237952379.html" class="i" data-id="0:00606_aIEy4InmZPt"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4237952379.html">Top Ts Amazon ready to play 10 uncut click HERE! - t4m</a> </span> <span class="l2">   <span class="pnr"> <small> (east tremont, in/out)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237963677"> <a href="/mnh/cas/4237963677.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237963677.html">WHO WANTS TO MEET UP? - m4mw</a> </span> <span class="l2">   <span class="pnr"> <small> (TriBeCa)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238034161"> <a href="/brx/cas/4238034161.html" class="i" data-id="0:00R0R_gB6hC8YC7xA"><span class="price">42</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4238034161.html">I want a verse / top tonight!  - m4t</a> </span> <span class="l2"> <span class="price">42</span>  <span class="pnr"> <small> (Bx)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237922702"> <a href="/que/cas/4237922702.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4237922702.html">Need Help with a job ! - w4m</a> </span> <span class="l2">   <span class="pnr"> <small> (All 5 boroughs)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238000357"> <a href="/mnh/cas/4238000357.html" class="i" data-id="0:00j0j_4JsNfj9mudU"><span class="price">28</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238000357.html">Lunch with us tomorrow, Wednesday 12/11 - mw4m w4m</a> </span> <span class="l2"> <span class="price">28</span>  <span class="pnr"> <small> (Midtown West)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238053784"> <a href="/brk/cas/4238053784.html" class="i" data-id="0:00y0y_adZC3iswIHU"><span class="price">24</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4238053784.html">Eat Pussy Fuck! - w4m</a> </span> <span class="l2"> <span class="price">24</span>  <span class="pnr"> <small> (brooklyn)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238059280"> <a href="/brk/cas/4238059280.html" class="i"><span class="price">28</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4238059280.html">VGL guy looking for asian girl to date - m4t</a> </span> <span class="l2"> <span class="price">28</span>  <span class="pnr"> <small> (NY area)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238055419"> <a href="/que/cas/4238055419.html" class="i" data-id="0:00t0t_5fWDKE4arj4"><span class="price">19</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4238055419.html">welcome to ur personal heaven - w4m</a> </span> <span class="l2"> <span class="price">19</span>  <span class="pnr">  <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238067394"> <a href="/que/cas/4238067394.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4238067394.html">Need one more for a three -way - t4m</a> </span> <span class="l2">   <span class="pnr"> <small> (Astoria)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238017365"> <a href="/brk/cas/4238017365.html" class="i" data-id="0:00404_juhXVHPp9kC"><span class="price">34</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4238017365.html">SEXY BOTTOM SEEKING HAIRY GENTLEMAN  - t4m</a> </span> <span class="l2"> <span class="price">34</span>  <span class="pnr"> <small> (NYC )</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238056921"> <a href="/que/cas/4238056921.html" class="i"><span class="price">45</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4238056921.html">mamada discreta  uso lenceria de mujer - t4m</a> </span> <span class="l2"> <span class="price">45</span>  <span class="pnr"> <small> (queens/manhattan)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4214400897"> <a href="/mnh/cas/4214400897.html" class="i" data-id="0:00t0t_bSu6KMfI5Rr"><span class="price">21</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4214400897.html">+SEXYLATINA Taste you Now**Your place - w4m</a> </span> <span class="l2"> <span class="price">21</span>  <span class="pnr"> <small> (Upper West Side)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4233540668"> <a href="/brk/cas/4233540668.html" class="i" data-id="0:00D0D_k9ryvQ5z8gK"><span class="price">18</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4233540668.html">WE ARE HIRING NEW SEXY FREAKY FEMALES TO BECOME TOP ESCORTS APPLY HERE - m4w</a> </span> <span class="l2"> <span class="price">18</span>  <span class="pnr"> <small> (Brooklyn)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237893593"> <a href="/brk/cas/4237893593.html" class="i" data-id="0:00s0s_jZWMgGCT2V7"><span class="price">19</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4237893593.html">Mz.Melly is looking for some fun and finance - w4m</a> </span> <span class="l2"> <span class="price">19</span>  <span class="pnr"> <small> (bronx ny)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238064731"> <a href="/lgi/cas/4238064731.html" class="i"><span class="price">54</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/lgi/cas/4238064731.html">Sub male seeking a couple - m4mw</a> </span> <span class="l2"> <span class="price">54</span>  <span class="pnr">  <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237941466"> <a href="/mnh/cas/4237941466.html" class="i"><span class="price">48</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237941466.html">VGL,professional man seeks Asian couple - m4mw</a> </span> <span class="l2"> <span class="price">48</span>  <span class="pnr"> <small> (manhattan)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238064302"> <a href="/mnh/cas/4238064302.html" class="i" data-id="0:00l0l_kBfbCMFF3pj"><span class="price">39</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238064302.html">MARRIED &amp; EAGER TO SUCK - m4m</a> </span> <span class="l2"> <span class="price">39</span>  <span class="pnr"> <small> (Midtown East)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237895274"> <a href="/mnh/cas/4237895274.html" class="i" data-id="0:00b0b_lvifKsoKcsK"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237895274.html">!!~~!! No talking just Fucking !!~~!! - w4m</a> </span> <span class="l2">   <span class="pnr"> <small> (Battery Park)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237945813"> <a href="/brx/cas/4237945813.html" class="i" data-id="0:00D0D_eKadOFRb54y"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4237945813.html">let me warm u up - t4m</a> </span> <span class="l2">   <span class="pnr"> <small> (gun hill)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238017616"> <a href="/que/cas/4238017616.html" class="i"><span class="price">27</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4238017616.html">Married For Same. - m4w</a> </span> <span class="l2"> <span class="price">27</span>  <span class="pnr">  <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234175006"> <a href="/que/cas/4234175006.html" class="i" data-id="0:00t0t_5fWDKE4arj4"><span class="price">19</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4234175006.html">are you ready...lets live out ur fantasies - w4m</a> </span> <span class="l2"> <span class="price">19</span>  <span class="pnr"> <small> (ur house)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4227343758"> <a href="/mnh/cas/4227343758.html" class="i" data-id="0:01515_bwNzS4LPXNr"><span class="price">26</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4227343758.html">Pig Sub wants Wild, Raunchy, Nasty Dom NOW - m4m</a> </span> <span class="l2"> <span class="price">26</span>  <span class="pnr"> <small> (Chelsea)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238061252"> <a href="/mnh/cas/4238061252.html" class="i" data-id="0:00c0c_dXOWQKDbuBS"><span class="price">48</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238061252.html">VGL  MUSCLE BTTM - m4m</a> </span> <span class="l2"> <span class="price">48</span>  <span class="pnr"> <small> (Upper East Side)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4230652742"> <a href="/mnh/cas/4230652742.html" class="i" data-id="0:00Z0Z_foaq7o1pGut"><span class="price">25</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4230652742.html">Looking for a rough &amp; wild scat/piss experience - m4m</a> </span> <span class="l2"> <span class="price">25</span>  <span class="pnr"> <small> (Chelsea)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237905945"> <a href="/mnh/cas/4237905945.html" class="i" data-id="0:00404_bpPb1qO1OKg"><span class="price">21</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237905945.html">AMERICA'S BEST KEPT SECRET &gt;&gt; TS MEGAN &lt;&lt; YOUR FAVORITE WHITE GIRL -</a> </span> <span class="l2"> <span class="price">21</span>  <span class="pnr"> <small> (Midtown East)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238026733"> <a href="/brk/cas/4238026733.html" class="i" data-id="0:00P0P_4nUgZdU6aEB"><span class="price">20</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4238026733.html">tasty tuesday special - w4m</a> </span> <span class="l2"> <span class="price">20</span>  <span class="pnr"> <small> (mill bassin)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237994959"> <a href="/mnh/cas/4237994959.html" class="i"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237994959.html">Tuesday Afternoon Massage - m4m</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (Midtown)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238037348"> <a href="/mnh/cas/4238037348.html" class="i"><span class="price">25</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238037348.html">Asian donor available to help get you pregnant with for asian features - m4w</a> </span> <span class="l2"> <span class="price">25</span>  <span class="pnr"> <small> (manhattan east side)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238059370"> <a href="/brx/cas/4238059370.html" class="i"><span class="price">19</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4238059370.html">Couple Wanted - mw4mw</a> </span> <span class="l2"> <span class="price">19</span>  <span class="pnr"> <small> (Bronx)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237916689"> <a href="/mnh/cas/4237916689.html" class="i" data-id="0:00f0f_2nD8rUiDkXc"><span class="price">27</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237916689.html">Hot rub down at my place or yours - m4m</a> </span> <span class="l2"> <span class="price">27</span>  <span class="pnr"> <small> (Chelsea)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238059008"> <a href="/mnh/cas/4238059008.html" class="i" data-id="0:01414_awaLBAmc5Nc"><span class="price">26</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238059008.html">Watch the Fashion Show with me? - w4w</a> </span> <span class="l2"> <span class="price">26</span>  <span class="pnr"> <small> (Chelsea)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238016047"> <a href="/que/cas/4238016047.html" class="i" data-id="0:00O0O_9AbAe9cx32U"><span class="price">28</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4238016047.html">Come Get your Dick and Toes Sucked by a Pretty CD girl - t4m</a> </span> <span class="l2"> <span class="price">28</span>  <span class="pnr"> <small> (astoria)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238030941"> <a href="/wch/cas/4238030941.html" class="i"><span class="price">25</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/wch/cas/4238030941.html">Any Tgirls for FWB? - m4t</a> </span> <span class="l2"> <span class="price">25</span>  <span class="pnr"> <small> (westchester)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237887602"> <a href="/brk/cas/4237887602.html" class="i"><span class="price">22</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4237887602.html">*come and heat up with coco* - w4m</a> </span> <span class="l2"> <span class="price">22</span>  <span class="pnr"> <small> (coney island,Bk,NY)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4227464943"> <a href="/mnh/cas/4227464943.html" class="i" data-id="0:00f0f_6ge7fq9N2N5"><span class="price">21</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4227464943.html">ASIA MEI; Exotic Beauty awaits you! CUM ON MY TITS! - t4m</a> </span> <span class="l2"> <span class="price">21</span>  <span class="pnr"> <small> (Downtown)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237920584"> <a href="/mnh/cas/4237920584.html" class="i" data-id="0:00z0z_fWBjLgxMnHV"><span class="price">21</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237920584.html">&#128139;AMERICAS BEST KEPT SECRET : turn it to the TOP notch - t4m</a> </span> <span class="l2"> <span class="price">21</span>  <span class="pnr"> <small> (Midtown East)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237947212"> <a href="/mnh/cas/4237947212.html" class="i"><span class="price">28</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237947212.html">Seeking man to brutally fuck my mouth - w4m</a> </span> <span class="l2"> <span class="price">28</span>  <span class="pnr"> <small> (I must travel to you)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4227074409"> <a href="/mnh/cas/4227074409.html" class="i" data-id="0:00I0I_1N8rFYt52X1"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4227074409.html">_________________HARDCORE THROAT ABUSE______________________ - m4w</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (Upper East Side)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4227076077"> <a href="/mnh/cas/4227076077.html" class="i" data-id="0:01010_em9X9jmQQ01"><span class="price">31</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4227076077.html">Petite Asian Hottie - m4w</a> </span> <span class="l2"> <span class="price">31</span>  <span class="pnr"> <small> (Upper East Side)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237931167"> <a href="/mnh/cas/4237931167.html" class="i"><span class="price">28</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237931167.html">looking for lust in all the wrong places? - w4m</a> </span> <span class="l2"> <span class="price">28</span>  <span class="pnr"> <small> (Gramercy Park)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4215288639"> <a href="/mnh/cas/4215288639.html" class="i" data-id="0:00m0m_5UKG9qvKWst"><span class="price">31</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4215288639.html">BARELY LEGAL - m4w</a> </span> <span class="l2"> <span class="price">31</span>  <span class="pnr"> <small> (Upper East Side)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4208068799"> <a href="/mnh/cas/4208068799.html" class="i" data-id="0:00101_fYHo1RJAdot"><span class="price">31</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4208068799.html">DEEPTHROAT BJ - m4w</a> </span> <span class="l2"> <span class="price">31</span>  <span class="pnr"> <small> (Upper East Side)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4208107034"> <a href="/mnh/cas/4208107034.html" class="i" data-id="0:00d0d_5VZJn0ylBv4"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4208107034.html">THROATED - m4w</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (Upper East Side)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4208059736"> <a href="/mnh/cas/4208059736.html" class="i" data-id="0:00q0q_dQ4WiYGWYbH"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4208059736.html">FACIAL ABUSE - m4w</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (Upper East Side)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238056340"> <a href="/que/cas/4238056340.html" class="i"><span class="price">21</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4238056340.html">Just looking for casual fun ;) - m4w</a> </span> <span class="l2"> <span class="price">21</span>  <span class="pnr"> <small> (Astoria/Queens)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4208068132"> <a href="/mnh/cas/4208068132.html" class="i" data-id="0:00K0K_exUK2TDzZ5K"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4208068132.html">BBBJ - m4w</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (Upper East Side)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4221688380"> <a href="/que/cas/4221688380.html" class="i" data-id="0:00303_byoz91TQ70g"><span class="price">29</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4221688380.html">Looking 4 a  BBJ Weekly Release M4W  - m4w</a> </span> <span class="l2"> <span class="price">29</span>  <span class="pnr"> <small> (Queens)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4202145586"> <a href="/mnh/cas/4202145586.html" class="i" data-id="0:00S0S_ab90vgyy5GW"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4202145586.html">SLOPPY HEAD - m4w</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (Upper East Side)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4229415818"> <a href="/que/cas/4229415818.html" class="i" data-id="0:00M0M_4pUcQcsl4ky"><span class="price">29</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4229415818.html">Looking 4 a  BBJ Weekly Release M4W  - m4w</a> </span> <span class="l2"> <span class="price">29</span>  <span class="pnr"> <small> (Queens)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238055907"> <a href="/brk/cas/4238055907.html" class="i" data-id="0:00k0k_dqBtBCcWEms"><span class="price">22</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4238055907.html">               i like it - w4m</a> </span> <span class="l2"> <span class="price">22</span>  <span class="pnr"> <small> (bro'oklyn)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237939652"> <a href="/mnh/cas/4237939652.html" class="i" data-id="0:00y0y_9JUfslat1BW"><span class="price">41</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237939652.html">REVIEWS     REVIEWS     REVIEWS - t4m</a> </span> <span class="l2"> <span class="price">41</span>  <span class="pnr">  <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4213485029"> <a href="/que/cas/4213485029.html" class="i" data-id="0:00m0m_h8Ysvk1d8Wx"><span class="price">29</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4213485029.html">Looking 4 a  BBJ Weekly Release M4W  - m4w</a> </span> <span class="l2"> <span class="price">29</span>  <span class="pnr"> <small> (Queens)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238047786"> <a href="/fct/cas/4238047786.html" class="i"><span class="price">27</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/fct/cas/4238047786.html">Curious clean white guy wants to eat cum filled hole - m4mw</a> </span> <span class="l2"> <span class="price">27</span>  <span class="pnr"> <small> (Danbury)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237944392"> <a href="/brx/cas/4237944392.html" class="i"><span class="price">20</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4237944392.html">need some chocolate - m4w</a> </span> <span class="l2"> <span class="price">20</span>  <span class="pnr">  <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238047001"> <a href="/mnh/cas/4238047001.html" class="i"><span class="price">32</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238047001.html">looking for a couple of guys to have fun with? - mm4w</a> </span> <span class="l2"> <span class="price">32</span>  <span class="pnr"> <small> (Financial District)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238046881"> <a href="/que/cas/4238046881.html" class="i" data-id="0:00n0n_kG8H0x8WEy6"><span class="price">26</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4238046881.html">hot sex - m4w</a> </span> <span class="l2"> <span class="price">26</span>  <span class="pnr"> <small> (Queens)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238025228"> <a href="/brk/cas/4238025228.html" class="i" data-id="0:00r0r_jdo7Dgfh1ak"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4238025228.html"> Kate seeks small endowment  - w4m</a> </span> <span class="l2">   <span class="pnr">  <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237930836"> <a href="/mnh/cas/4237930836.html" class="i"><span class="price">22</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237930836.html">Young Mixed Ebony Beauty  - w4m</a> </span> <span class="l2"> <span class="price">22</span>  <span class="pnr"> <small> (Upper West Side)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4184973273"> <a href="/brx/cas/4184973273.html" class="i" data-id="0:01414_iYKLTdHP9Pr"><span class="price">29</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4184973273.html">GAY ASIAN BOTTOM DOCTOR LOOKING FOR GAY TOP BLACKS WITH BIG BLACK COCK - m4m</a> </span> <span class="l2"> <span class="price">29</span>  <span class="pnr"> <small> (Riverdale, Bronx)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234085099"> <a href="/que/cas/4234085099.html" class="i" data-id="0:00o0o_fVx7qxUkPnd"><span class="price">27</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4234085099.html">Ts Kanella  - t4m</a> </span> <span class="l2"> <span class="price">27</span>  <span class="pnr"> <small> (Woodhaven)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237813291"> <a href="/mnh/cas/4237813291.html" class="i"><span class="price">42</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237813291.html">FEMALE SPA PARTNER WANTED - m4w</a> </span> <span class="l2"> <span class="price">42</span>  <span class="pnr"> <small> (MANHATTAN)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238043174"> <a href="/que/cas/4238043174.html" class="i"><span class="price">36</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4238043174.html">FEED ME YOUR MEAT - m4m</a> </span> <span class="l2"> <span class="price">36</span>  <span class="pnr"> <small> (Bayside, Whitestone, Flushing)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234530217"> <a href="/wch/cas/4234530217.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/wch/cas/4234530217.html">Anal, Taboo, Creampie, all fetishes and fantasies - m4w</a> </span> <span class="l2">   <span class="pnr">  <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237842781"> <a href="/jsy/cas/4237842781.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/jsy/cas/4237842781.html"> Up super early,morning sex - w4m</a> </span> <span class="l2">   <span class="pnr"> <small> (new york)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234530972"> <a href="/wch/cas/4234530972.html" class="i"><span class="price">23</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/wch/cas/4234530972.html">Anal virgin? Anal Creampie? Inquire within  - m4w</a> </span> <span class="l2"> <span class="price">23</span>  <span class="pnr">  <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234533358"> <a href="/wch/cas/4234533358.html" class="i"><span class="price">23</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/wch/cas/4234533358.html">Attached looking for FWB  - m4w</a> </span> <span class="l2"> <span class="price">23</span>  <span class="pnr">  <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4188711363"> <a href="/jsy/cas/4188711363.html" class="i" data-id="0:00101_bKi9AmjNSNR"><span class="price">33</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/jsy/cas/4188711363.html">Looking for SUBMISSIVE WOMAN that enjoys SUCKING COCK - m4w</a> </span> <span class="l2"> <span class="price">33</span>  <span class="pnr"> <small> (Parsippany, NJ)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238040744"> <a href="/mnh/cas/4238040744.html" class="i" data-id="0:00K0K_dibnuMaxdzN"><span class="price">42</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238040744.html">cocksucker into cum showers and cum facials hosting after 6:00 PM  - m4m</a> </span> <span class="l2"> <span class="price">42</span>  <span class="pnr"> <small> (Midtown West)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238048064"> <a href="/mnh/cas/4238048064.html" class="i" data-id="0:01313_fD35iLtZorh"><span class="price">60</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238048064.html">NIPPLE FUN with mature CD - t4m</a> </span> <span class="l2"> <span class="price">60</span>  <span class="pnr">  <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237924764"> <a href="/lgi/cas/4237924764.html" class="i" data-id="0:00S0S_a7GciMbgotb"><span class="price">39</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/lgi/cas/4237924764.html">massage after the snow - m4m</a> </span> <span class="l2"> <span class="price">39</span>  <span class="pnr"> <small> (nassau)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+
+                    
+                </div>
+
+                <div class="toc_legend bottom"><div class="center"><div class='bottompaginator'><span class="paginator buttongroup">
+<span class="button first" title="first page"> &lt;&lt; </span><span class="button prev" title="previous page"> &lt; prev </span><span class="button pagenum">1 - 100 </span><a href='/cas/index100.html' class="button next" title="next page"> next &gt; </a>
+</span></div></div></div>
+
+            </div>
+            <div id="floater">
+                <img class="loading" src="http://www.craigslist.org/images/map/animated-spinny.gif">
+                <img class="payload" src="http://www.craigslist.org/images/map/animated-spinny.gif">
+            </div>
+
+
+
+            <section class="blurbs">
+                <blockquote id="messagetable"><div id="messages"><span class="hl"></span>
+<span class="hl"> [ <a href="http://youtube.com/craigslist">tv</a> ] </span>
+<span class="hl"> [ <a href="http://blog.craigslist.org/">blog</a> ] </span>
+<span class="hl"> [ <a href="/about/scams">scams</a> ] </span>
+<span class="hl"> [ <a href="/about/safety">safety</a> ] </span>
+<span class="hl"> [ <a href="/about/prohibited">prohibited</a> ] </span>
+</div></blockquote>
+            </section>
+        </section>
+        
+        <ul id="fmtsel">
+	<li><b>FORMAT:</b></li>
+	<li class="fsel" data-mode="mobile">mobile</li>
+	<li class="fsel" data-mode="regular">standard</li>
+</ul>
+<footer>
+	
+			<span class="rss">
+				<a class="l" href="/cas/index.rss">RSS</a>
+				<a href="http://www.craigslist.org/about/rss">(?)</a><br>
+			</span>
+			
+	<ul class="clfooter">
+		<li>&copy; 2013 craigslist</li>
+		<li><a href="//www.craigslist.org/about/help/">help</a></li>
+		<li><a href="//www.craigslist.org/about/terms.of.use">terms</a></li>
+		<li><a href="//www.craigslist.org/about/privacy.policy">privacy</a></li>
+		<li><a href="//www.craigslist.org/about/scams">safety</a></li>
+		<li><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+		<li><a href="//www.craigslist.org/about/">about</a></li>
+		<li><a href="//www.craigslist.org/about/craigslist_is_hiring" style="color: #0b0">cl jobs</a></li>
+	</ul>
+</footer>
+    </article>
+    <!--[if lte IE 7]>
+        <script type="text/javascript" src="//www.craigslist.org/js/json2.js?v=c1da07f5953739dffc17fd1db3c5313c" ></script>
+    <![endif]-->
+    <script type="text/javascript" src="//www.craigslist.org/js/jquery-1.9.1.js?v=56eaef3b8a28d9d45bb4f86004b0eaae" ></script>
+    <script type="text/javascript" src="//www.craigslist.org/js/jquery-ui-1.9.2.custom.js?v=32c38510c8db71f2fbef00da891aeaac" ></script>
+    <script type="text/javascript" src="//www.craigslist.org/js/formats.js?v=de0b68316eab03f147c3451853448c58" ></script>
+    <script type="text/javascript" src="//www.craigslist.org/js/toChecklist.js?v=b163a7aa23a6dad79076f92e56c622f7" ></script>
+    <script type="text/javascript" src="//www.craigslist.org/js/jquery.form-defaults.js?v=421648d06bad2f29bbfc2f66c5205aeb" ></script>
+    <script type="text/javascript" src="//www.craigslist.org/js/tocs.js?v=184ae74e9c8c08a59fdf19980d70f699" ></script>
+    <script type="text/javascript" src="//www.craigslist.org/js/favorites.js?v=f710a4aac353592ae2b347f9c9b5c9b3" ></script>
+    <script type="text/javascript" src="//www.craigslist.org/js/suggestions.js?v=febb5f24aa5f9fa0b8d744f6bed5eaaa" ></script>
+    
+    <script type="text/javascript" src="//www.craigslist.org/js/postings.js?v=290084256d5ed21fec190fcd9f42ea27" defer async></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html class="nojs"><head>
+    <title>new york city casual encounters classifieds  - craigslist</title>
+
+    <meta name="description" content="new york city casual encounters classifieds  - craigslist">
+    <link rel="alternate" type="application/rss+xml" href="/cas/index.rss" title="RSS feed for craigslist | casual encounters  in new york city ">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=1">
+    <link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/clnew.css?v=9c9bc27562304b153bead04bc5495692">
+    <link type="text/css" rel="stylesheet" media="all" href="//www.craigslist.org/styles/jquery-ui-1.9.2.custom.css?v=cb67f2e720fe8a2c7d83234590b2d1ed">
+    <meta http-equiv="PICS-Label" content='(PICS-1.1 "http://craigslist.org/" l gen true comment by "robot\@craigslist.org" on "2007.11.15T16:591600" for "http://www.craigslist.org/cas/" r (Gam 0 V 0 Env 0 SF 0 Com 0 Can 0 Edu 0 S 5 P 0 Tol 0 MC -2 ))'>
+    
+    
+		<script type="text/javascript"><!--
+			var currencySymbol = null;
+var zoomToPosting = null;
+var showInfoText = "show info";
+var imageHost = "http://images.craigslist.org";
+var areaId = "3";
+var lessInfoText = "less info";
+var showMapTabs = 0;
+var areaCountry = "US";
+var starHint = "save this post in your favorites list";
+var expFaves = null;
+var pID = null;
+var catAbb = "cas";
+var catType = "ppp";
+
+		--></script>
+	
+    
+		<script type="text/javascript"><!--
+			var lsDomain = "www";
+
+		--></script>
+	
+    <!--[if lt IE 9]>
+<script type="text/javascript" src="//www.craigslist.org/js/html5shiv.js?v=ed7af45dcbda983c8455631037ebcdda" ></script>
+<![endif]-->
+</head>
+
+<body class="toc">
+    <script type="text/javascript"><!--
+	function C(k){return(document.cookie.match('(^|; )'+k+'=([^;]*)')||0)[2]}
+	var pagetype, pagemode;
+	(function(){
+		var h = document.documentElement;
+		h.className = h.className.replace('nojs', '');
+		var b = document.body;
+		var bodyClassList = b.className.split(/\s+/);;
+		pagetype = bodyClassList[0];
+		var fmt = C('cl_fmt');
+		if (fmt) {
+			pagemode = fmt;
+			bodyClassList.push(fmt);
+		} else if (screen.width <= 480) {
+			pagemode = 'mobile';
+			bodyClassList.push(pagemode);
+		}
+		var width = window.innerWidth || document.documentElement.clientWidth;
+		if (width > 1000) { bodyClassList.push('w1024'); }
+		if (typeof catType !== 'undefined') {
+			var mode = (decodeURIComponent(C('cl_img') || '').match(new RegExp(catType + ':([^,]+)', 'i')) || {})[1];
+			for (var i = 0, len = bodyClassList.length; i < len; i++){
+				if (bodyClassList[i] === 'map') { mode = undefined; }
+			}
+			if (mode) { bodyClassList.push(mode); }
+		}
+		b.className = bodyClassList.join(' ');
+	}());
+--></script>
+
+
+    <article id="pagecontainer">
+
+        <header class="bchead">
+	<div class="contents closed">
+		<div class="topright_box">
+			<div id="ef">
+	[ <a href="http://www.craigslist.org/about/help/">help</a> ] 
+	[ <a href="https://post.craigslist.org/c/nyc?lang=en">post</a> ]
+</div>
+			<div id="favorites">
+    <a href="#" class="favlink"><span class="n">0</span> favorites</a>
+</div>
+		</div>
+		<div class="dropdown down">&or;</div>
+		<div class="dropdown up">&and;</div>
+		<div class="leftside">
+            <button class="back">&lt;</button>
+            <div class="breadbox">
+                <div class="breadcrumbs">
+                    <span class="crumb"><a href="//www.craigslist.org/about/sites">CL</a></span>
+                    <span class="crumb"><a href="/">new york</a></span>    <span class="crumb"><a href="/ppp/">personals</a></span> <span class="crumb"><a href="/cas/">casual encounters</a></span>
+                </div>
+            </div>
+		</div>
+        <div id="satabs" class="tabcontainer"><b>all new york</b><a href="/mnh/cas/">manhattan</a><a href="/brk/cas/">brooklyn</a><a href="/que/cas/">queens</a><a href="/brx/cas/">bronx</a><a href="/stn/cas/">staten island</a><a href="/jsy/cas/">new jersey</a><a href="/lgi/cas/">long island</a><a href="/wch/cas/">westchester</a><a href="/fct/cas/">fairfield</a></div>
+
+	</div>
+</header>
+
+        <blockquote class="searchform">
+            
+		<script type="text/javascript"><!--
+			var catAbb = "cas";
+
+		--></script>
+	
+<form action="/search/cas" id="searchform" method="get" accept-charset="utf-8">
+
+    <fieldset id="searchfieldset">
+    <legend id="searchlegend"><select id="catAbb" name="catAbb">
+
+                <option value="ccc">all community
+
+                <option value="eee">all event
+
+                <option value="sss">all for sale / wanted
+
+                <option value="ggg">all gigs
+
+                <option value="hhh">all housing
+
+                <option value="jjj">all jobs
+
+                <option value="ppp">all personals
+<option disabled value="">--
+<option value="cas" selected> casual encounters
+<option value="m4m"> men seeking men
+<option value="m4w"> men seeking women
+<option value="msr"> misc romance
+<option value="mis"> missed connections
+<option value="rnr"> rants &amp; raves
+<option value="stp"> strictly platonic
+<option value="w4m"> women seeking men
+<option value="w4w"> women seeking women
+<option disabled value="">--
+
+                <option value="res">all resume
+
+                <option value="bbb">all services offered
+</select></legend>
+	<div class="experimentalFeature">
+    	     
+    	</div>
+	<div id="searchtable">
+		<span class="searchgroup">
+			<span>
+				<input id="query" name="query" data-suggest="search" size="24" value="" placeholder="search" autocorrect="off" autocapitalize="off">
+			</span>
+			<input id="searchbtn" type="submit" value="search">
+		</span>
+		<span class="searchgroup">
+			<span id="searchchecks">
+				<input type="checkbox" name="useMap" id="useMap" style="display:none;" value="1">
+				<input id="zoomtoposting" type="hidden" name="zoomToPosting" value="">
+			</span>
+		</span>
+
+		
+
+		<span class="searchgroup">
+	age:
+	<input name="minAsk" class="min" size="5" placeholder="min" value="">
+	<input name="maxAsk" class="max" size="5" placeholder="max" value="">
+</span>
+
+		
+		<span class="searchgroup">
+			<label>
+				<input type="checkbox" name="hasPic" value="1" ><span class="haspic">pic</span>
+			</label>
+			<label>
+					<input type="checkbox" name="srchType" value="T"
+					title="search only posting titles">title
+			</label>
+		</span>
+
+        
+	</div>
+    </fieldset>
+</form>
+        </blockquote>
+
+        <section class="body">
+            <section class="favlistinfo">
+                
+                
+            </section>
+
+            <div id="toc_rows">
+                <div class="toc_legend">
+                    <div class="center">
+                        <span class="tocview buttongroup"><a href="#list" title="show results in a list" class="mode button" data-view="list" id="listview">list</a><a href="#pic" title="show results in a list with thumbnail pictures" class="mode button" data-view="pic" id="picview">thumb</a><a href="#grid" title="show results side-by-side with larger pictures" class="mode button" data-view="grid" id="gridview">gallery</a></span><span class="paginator buttongroup">
+<a href='/cas/' class="button first" title="first page"> &lt;&lt; </a><a href='/cas/' class="button prev" title="previous page"> &lt; prev </a><span class="button pagenum">101 - 200 </span><a href='/cas/index200.html' class="button next" title="next page"> next &gt; </a>
+</span><span class="tocsort buttongroup"><span class="button sel">newest</span></span>
+                    </div>
+                </div>
+
+                <div class="content">
+                    
+                    <h4 class="ban"><span class="bantext">Tue Dec 10</span></h4>
+ <p class="row" data-pid="4237928416"> <a href="/que/cas/4237928416.html" class="i" data-id="0:00x0x_djCEXvMouAx"><span class="price">20</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4237928416.html"> Need Driver - w4m</a> </span> <span class="l2"> <span class="price">20</span>  <span class="pnr">  <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4229640884"> <a href="/jsy/cas/4229640884.html" class="i" data-id="0:00101_bKi9AmjNSNR"><span class="price">33</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/jsy/cas/4229640884.html">Looking for SUBMISSIVE WOMAN that enjoys SUCKING COCK - m4w</a> </span> <span class="l2"> <span class="price">33</span>  <span class="pnr"> <small> (Parsippany, NJ)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4228814725"> <a href="/mnh/cas/4228814725.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4228814725.html">Fraternity Pledgemaster wanted - m4m</a> </span> <span class="l2">   <span class="pnr"> <small> (Midtown West)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4221306211"> <a href="/mnh/cas/4221306211.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4221306211.html">weekends fun? if you see this ad, then i am still hunting! - m4mm</a> </span> <span class="l2">   <span class="pnr"> <small> (anywhere)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4211162456"> <a href="/mnh/cas/4211162456.html" class="i"><span class="price">20</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4211162456.html">bottom slut for big cocks m4m and m4mm - m4t</a> </span> <span class="l2"> <span class="price">20</span>  <span class="pnr"> <small> (my ass)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4227195123"> <a href="/brx/cas/4227195123.html" class="i" data-id="0:00H0H_ha9U7JI9ySb"><span class="price">21</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4227195123.html">the hottest commodity  - t4m</a> </span> <span class="l2"> <span class="price">21</span>  <span class="pnr"> <small> (bxxx)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237950944"> <a href="/mnh/cas/4237950944.html" class="i"><span class="price">23</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237950944.html">Have anyone late N8 Fun ....?? - w4m</a> </span> <span class="l2"> <span class="price">23</span>  <span class="pnr"> <small> (Battery Park)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237971874"> <a href="/mnh/cas/4237971874.html" class="i" data-id="0:00S0S_3g4W0II5qrY"><span class="price">18</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237971874.html">Young and Slender Guy Here for FWB or a One-Off - m4m</a> </span> <span class="l2"> <span class="price">18</span>  <span class="pnr"> <small> (Harlem / Morningside)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237979207"> <a href="/que/cas/4237979207.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4237979207.html">Sexy Young Hot Just What You Need. - w4m</a> </span> <span class="l2">   <span class="pnr"> <small> (queens, NY)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4187804883"> <a href="/mnh/cas/4187804883.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4187804883.html">VGL SWM SEEKS CURVY BLK, LATNA , ASIAN WOMEN - m4w</a> </span> <span class="l2">   <span class="pnr"> <small> (NNJ)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238043610"> <a href="/que/cas/4238043610.html" class="i" data-id="0:01111_2imOs0bUePG"><span class="price">40</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4238043610.html">8 inch big dick top for TS - m4t</a> </span> <span class="l2"> <span class="price">40</span>  <span class="pnr"> <small> (queens )</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4197043045"> <a href="/mnh/cas/4197043045.html" class="i"><span class="price">34</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4197043045.html">bi sexual/ bi fem/ curious mixer - w4w</a> </span> <span class="l2"> <span class="price">34</span>  <span class="pnr"> <small> (nnj)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238020486"> <a href="/mnh/cas/4238020486.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238020486.html">Woman from out of town at a Hotel,who needs oral pampering? - m4w</a> </span> <span class="l2">   <span class="pnr"> <small> (Manhattan)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4191742514"> <a href="/mnh/cas/4191742514.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4191742514.html">VGL SWM SEEKS CURVY BLK, LATNA , ASIAN WOMEN - m4w</a> </span> <span class="l2">   <span class="pnr"> <small> (NNJ)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238029381"> <a href="/mnh/cas/4238029381.html" class="i"><span class="price">29</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238029381.html">good looking guy looking for straight scat top - m4m</a> </span> <span class="l2"> <span class="price">29</span>  <span class="pnr"> <small> (Chelsea)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4197044097"> <a href="/mnh/cas/4197044097.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4197044097.html">DOES ANYONE ACTUALLY WANNA FUCK ON HERE?? - m4w (NNJ)  - m4w</a> </span> <span class="l2">   <span class="pnr"> <small> (nnj)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4227938795"> <a href="/mnh/cas/4227938795.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4227938795.html">LOOKING FOR POLYAMOROUS RELATIONSHIP?????- - w4w - 34 (nnj)) - - w4w ( - w4w</a> </span> <span class="l2">   <span class="pnr"> <small> (nnj)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238021225"> <a href="/mnh/cas/4238021225.html" class="i" data-id="0:00o0o_61Eqkbj4u37"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238021225.html"> Need sex and to go out  - w4m</a> </span> <span class="l2">   <span class="pnr"> <small> (Battery Park)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238028687"> <a href="/brx/cas/4238028687.html" class="i" data-id="0:00v0v_9fbYHf5NtaO"><span class="price">19</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4238028687.html">WARNING: JENNY 19yo from Bronx dangerous - w4m</a> </span> <span class="l2"> <span class="price">19</span>  <span class="pnr"> <small> (Fordham Rd)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238041259"> <a href="/brk/cas/4238041259.html" class="i" data-id="0:00y0y_jyUUsJTsasU"><span class="price">37</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4238041259.html">It is a cold day... let's heat it up!!! - m4w</a> </span> <span class="l2"> <span class="price">37</span>  <span class="pnr"> <small> (Near Downtown Brooklyn)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234129079"> <a href="/brk/cas/4234129079.html" class="i" data-id="0:00Y0Y_2CRn261VyaV"><span class="price">24</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4234129079.html">I wanna do the nasty... - t4m</a> </span> <span class="l2"> <span class="price">24</span>  <span class="pnr"> <small> (eastern pkwy and herkimer...)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237998367"> <a href="/que/cas/4237998367.html" class="i" data-id="0:00y0y_cuj7sNn84ax"><span class="price">26</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4237998367.html">SEXXXY PERLITA HOT - t4m</a> </span> <span class="l2"> <span class="price">26</span>  <span class="pnr"> <small> (corona queens)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234633933"> <a href="/lgi/cas/4234633933.html" class="i" data-id="0:00n0n_2QHs0bAoVVi"><span class="price">18</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/lgi/cas/4234633933.html">18yo looking for girl to have skype sessions with:) - m4w</a> </span> <span class="l2"> <span class="price">18</span>  <span class="pnr">  <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238033693"> <a href="/brk/cas/4238033693.html" class="i" data-id="0:00505_5l9JWPUmGKA"><span class="price">22</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4238033693.html">Sweeeet Cunt Doll - w4m</a> </span> <span class="l2"> <span class="price">22</span>  <span class="pnr"> <small> (New York Ave)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4208733633"> <a href="/brx/cas/4208733633.html" class="i" data-id="0:00W0W_1Scnl1zFurC"><span class="price">48</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4208733633.html">Make me your sex slave - m4m</a> </span> <span class="l2"> <span class="price">48</span>  <span class="pnr"> <small> (Mt. Vernon)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237880160"> <a href="/brx/cas/4237880160.html" class="i" data-id="0:00F0F_bUd2XJ6aoGf"><span class="price">20</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4237880160.html">Passable Transsexual Goddess - t4m</a> </span> <span class="l2"> <span class="price">20</span>  <span class="pnr"> <small> (Westchester ave)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234293947"> <a href="/brk/cas/4234293947.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4234293947.html">HAND JOB - m4w</a> </span> <span class="l2">   <span class="pnr"> <small> (BROOKLYN)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237832307"> <a href="/mnh/cas/4237832307.html" class="i" data-id="0:00S0S_dKtdUO9zQUB"><span class="price">24</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237832307.html">* * * * &#66;I GR&#79;UP &#80;LAY PA&#82;TY  - mw4mw</a> </span> <span class="l2"> <span class="price">24</span>  <span class="pnr"> <small> (kwnx xpdo)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238028882"> <a href="/mnh/cas/4238028882.html" class="i" data-id="0:00c0c_luvNFf8vXKn"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238028882.html"> I give really good masseges  - w4m</a> </span> <span class="l2">   <span class="pnr"> <small> (new york)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238038900"> <a href="/que/cas/4238038900.html" class="i"><span class="price">46</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4238038900.html">please strap me - m4w</a> </span> <span class="l2"> <span class="price">46</span>  <span class="pnr"> <small> (queens)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4221885443"> <a href="/wch/cas/4221885443.html" class="i" data-id="0:00u0u_jpjQ62N7PHL"><span class="price">48</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/wch/cas/4221885443.html">FAT FREAK CHUB BOTTOM - m4m</a> </span> <span class="l2"> <span class="price">48</span>  <span class="pnr"> <small> (MOUNT VERNON)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237968048"> <a href="/brx/cas/4237968048.html" class="i" data-id="0:00N0N_gCShBrCXDSs"><span class="price">28</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4237968048.html">time for fun - m4w</a> </span> <span class="l2"> <span class="price">28</span>  <span class="pnr"> <small> (kingsbridge)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237834928"> <a href="/wch/cas/4237834928.html" class="i"><span class="price">22</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/wch/cas/4237834928.html">Something new for the Elmsford area....  - w4m</a> </span> <span class="l2"> <span class="price">22</span>  <span class="pnr"> <small> (My Place)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238016448"> <a href="/stn/cas/4238016448.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/stn/cas/4238016448.html">seeking a female whos up for this idea - m4w</a> </span> <span class="l2">   <span class="pnr"> <small> (anywhere on si)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237987945"> <a href="/brx/cas/4237987945.html" class="i" data-id="0:00e0e_31chPbhKdOk"><span class="price">23</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4237987945.html">bottom bubble needs popping - m4m</a> </span> <span class="l2"> <span class="price">23</span>  <span class="pnr"> <small> (concourse)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4226925358"> <a href="/brx/cas/4226925358.html" class="i" data-id="0:00I0I_e4QfCwPaUxo"><span class="price">27</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4226925358.html">MS.nomi banXX - w4m</a> </span> <span class="l2"> <span class="price">27</span>  <span class="pnr"> <small> (INCALLS)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237893155"> <a href="/lgi/cas/4237893155.html" class="i"><span class="price">48</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/lgi/cas/4237893155.html">Snowing outside - Panty play inside - m4m</a> </span> <span class="l2"> <span class="price">48</span>  <span class="pnr"> <small> (Melville)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237902904"> <a href="/que/cas/4237902904.html" class="i" data-id="0:00Y0Y_cdJUB0y5VLh"><span class="price">27</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4237902904.html">Pampering Tuesday - w4m</a> </span> <span class="l2"> <span class="price">27</span>  <span class="pnr"> <small> (flushing)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237959971"> <a href="/mnh/cas/4237959971.html" class="i"><span class="price">38</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237959971.html">***SEEKING 1 Married Woman, Let's feel the Butterflies Again*** - m4w</a> </span> <span class="l2"> <span class="price">38</span>  <span class="pnr"> <small> (Midtown East)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237835743"> <a href="/brk/cas/4237835743.html" class="i" data-id="0:00u0u_7BC0pZrxA0O"><span class="price">24</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4237835743.html">Sweet, smart, normal guy - 24 - m4w</a> </span> <span class="l2"> <span class="price">24</span>  <span class="pnr"> <small> (Brooklyn)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237915975"> <a href="/mnh/cas/4237915975.html" class="i"><span class="price">42</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237915975.html">I want to give you a disciplinary spanking - m4w</a> </span> <span class="l2"> <span class="price">42</span>  <span class="pnr"> <small> (Manhattan)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4228583151"> <a href="/brk/cas/4228583151.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4228583151.html">I would Love to rub your pussy - m4w</a> </span> <span class="l2">   <span class="pnr">  <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4232477078"> <a href="/brx/cas/4232477078.html" class="i" data-id="0:00h0h_i3T7GyaR2N7"><span class="price">27</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4232477078.html">*****SASHA**** - w4m</a> </span> <span class="l2"> <span class="price">27</span>  <span class="pnr"> <small> (incalls)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4205157944"> <a href="/jsy/cas/4205157944.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/jsy/cas/4205157944.html">Verse european seeking sexy  gurl, for pleasurable time - m4t</a> </span> <span class="l2">   <span class="pnr">  <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4220271559"> <a href="/mnh/cas/4220271559.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4220271559.html">Stop by for a full body massage with a special ending - m4w</a> </span> <span class="l2">   <span class="pnr"> <small> (Upper West Side)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4222288951"> <a href="/que/cas/4222288951.html" class="i"><span class="price">29</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4222288951.html">29 yo bi here looking for a guy around my age to show me ropes - m4m</a> </span> <span class="l2"> <span class="price">29</span>  <span class="pnr"> <small> (queens blvd)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4203037072"> <a href="/brk/cas/4203037072.html" class="i"><span class="price">37</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4203037072.html">any females into fat guys :) - m4w</a> </span> <span class="l2"> <span class="price">37</span>  <span class="pnr">  <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4214944481"> <a href="/mnh/cas/4214944481.html" class="i"><span class="price">27</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4214944481.html">ONLY IF U GOT A PRVT GLORYHOLE - m4m</a> </span> <span class="l2"> <span class="price">27</span>  <span class="pnr"> <small> (GLORYHOLE )</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4214314707"> <a href="/wch/cas/4214314707.html" class="i"><span class="price">36</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/wch/cas/4214314707.html">any couples looking? - m4mw</a> </span> <span class="l2"> <span class="price">36</span>  <span class="pnr"> <small> (westchester)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234189860"> <a href="/brk/cas/4234189860.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4234189860.html">suck...........*............. big.............*........... cock  - w4m</a> </span> <span class="l2">   <span class="pnr">  <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4216274278"> <a href="/mnh/cas/4216274278.html" class="i" data-id="0:00l0l_8LOvCPA8rEh"><span class="price">23</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4216274278.html">Lookin to host a big dick for this fat ass - m4m</a> </span> <span class="l2"> <span class="price">23</span>  <span class="pnr"> <small> (Lower East Side)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4222954451"> <a href="/mnh/cas/4222954451.html" class="i" data-id="0:00k0k_5QJbVULr34L"><span class="price">32</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4222954451.html">Wanted: Black TS - m4t</a> </span> <span class="l2"> <span class="price">32</span>  <span class="pnr"> <small> (City or BK)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4223781569"> <a href="/brk/cas/4223781569.html" class="i" data-id="0:00p0p_H0pYkkT4II"><span class="price">28</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4223781569.html">28 yo bi italian kid here leaving work on court street anyone free?? - m4m</a> </span> <span class="l2"> <span class="price">28</span>  <span class="pnr"> <small> (brooklyn heights)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237925781"> <a href="/brk/cas/4237925781.html" class="i" data-id="0:00i0i_8FSEk7yaCJv"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4237925781.html">A new lifestyle  - w4m</a> </span> <span class="l2">   <span class="pnr">  <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4196930802"> <a href="/mnh/cas/4196930802.html" class="i" data-id="0:00j0j_aFAcnj1KikJ"><span class="price">23</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4196930802.html">discreet blk bottom  - m4m</a> </span> <span class="l2"> <span class="price">23</span>  <span class="pnr"> <small> (Lower East Side)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234529736"> <a href="/stn/cas/4234529736.html" class="i" data-id="0:00r0r_9BS1SVcYVeA"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/stn/cas/4234529736.html">tattooed sexy girl - m4w</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (i can host)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238031011"> <a href="/brx/cas/4238031011.html" class="i" data-id="0:00N0N_isssbxSUJP6"><span class="price">25</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4238031011.html">big dick niggas eat pussy too - m4w</a> </span> <span class="l2"> <span class="price">25</span>  <span class="pnr">  <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4209604693"> <a href="/mnh/cas/4209604693.html" class="i" data-id="0:00Z0Z_iHLHQ14jB36"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4209604693.html">Sexy mani - w4m</a> </span> <span class="l2">   <span class="pnr"> <small> (118th st)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237812463"> <a href="/mnh/cas/4237812463.html" class="i"><span class="price">20</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237812463.html"> st8 porn star party needs girls - mm4ww</a> </span> <span class="l2"> <span class="price">20</span>  <span class="pnr"> <small> (Midtown West)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4220274013"> <a href="/mnh/cas/4220274013.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4220274013.html">Naughty Fun in the S*now*? - m4w</a> </span> <span class="l2">   <span class="pnr"> <small> (Midtown East)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4211895952"> <a href="/brx/cas/4211895952.html" class="i" data-id="0:00j0j_bCXczmfVy9T"><span class="price">49</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4211895952.html">PARTY BOTTOM LOOKING A BLK BIG DICK TOP/NICE BODY 18-30 TO PNP - m4m</a> </span> <span class="l2"> <span class="price">49</span>  <span class="pnr"> <small> (BRONX)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234531716"> <a href="/brk/cas/4234531716.html" class="i"><span class="price">32</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4234531716.html">Looking for a HJ - m4t</a> </span> <span class="l2"> <span class="price">32</span>  <span class="pnr"> <small> (you host or car)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238008136"> <a href="/que/cas/4238008136.html" class="i"><span class="price">21</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4238008136.html">LOOKING FOR NSA FUN ASAP GOOD LOOKING ;) - m4w</a> </span> <span class="l2"> <span class="price">21</span>  <span class="pnr"> <small> (JACKSON HEIGHTS)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237968614"> <a href="/fct/cas/4237968614.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/fct/cas/4237968614.html">Let me cum in your pussy - m4w</a> </span> <span class="l2">   <span class="pnr"> <small> (Brookfield)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4218164372"> <a href="/mnh/cas/4218164372.html" class="i"><span class="price">2527</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4218164372.html">Need a dominate couple - mw4mw</a> </span> <span class="l2"> <span class="price">2527</span>  <span class="pnr"> <small> (your choice)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4223444438"> <a href="/que/cas/4223444438.html" class="i"><span class="price">31</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4223444438.html">top?i can suck you - t4m</a> </span> <span class="l2"> <span class="price">31</span>  <span class="pnr"> <small> (woodside)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4212503897"> <a href="/stn/cas/4212503897.html" class="i"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/stn/cas/4212503897.html">older black women only - m4w</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (north shore)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4214942103"> <a href="/stn/cas/4214942103.html" class="i" data-id="0:01515_aQHZSnsTho5"><span class="price">32</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/stn/cas/4214942103.html">Big Girls Only - m4w</a> </span> <span class="l2"> <span class="price">32</span>  <span class="pnr"> <small> (my place,your place)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4232808203"> <a href="/mnh/cas/4232808203.html" class="i" data-id="0:00E0E_7IafQnrhbu"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4232808203.html"> PHONE FUN RIGHT NOW - m4w</a> </span> <span class="l2">   <span class="pnr"> <small> (Midtown East)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238028909"> <a href="/mnh/cas/4238028909.html" class="i" data-id="0:00N0N_at7xQaT6MNW"><span class="price">33</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238028909.html">Bi Male for Couples THU-FRI night - m4mw</a> </span> <span class="l2"> <span class="price">33</span>  <span class="pnr"> <small> (Larchmont)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4212494291"> <a href="/brk/cas/4212494291.html" class="i" data-id="0:00505_jgghIM1EvJI"><span class="price">32</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4212494291.html">Hot Hung whiteboy for a Sexi Black chick - m4w</a> </span> <span class="l2"> <span class="price">32</span>  <span class="pnr"> <small> (Brooklyn or Staten island)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234536043"> <a href="/mnh/cas/4234536043.html" class="i" data-id="0:00E0E_7IafQnrhbu"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4234536043.html"> PHONE FUN  - m4w</a> </span> <span class="l2">   <span class="pnr"> <small> (Midtown East)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4212496614"> <a href="/stn/cas/4212496614.html" class="i"><span class="price">33</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/stn/cas/4212496614.html">Looking for an older woman  - m4w</a> </span> <span class="l2"> <span class="price">33</span>  <span class="pnr"> <small> (North Shore)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4227191937"> <a href="/brx/cas/4227191937.html" class="i" data-id="0:00z0z_bPXw0lKTwuA"><span class="price">21</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4227191937.html">The Best Discrete Experience  - t4m</a> </span> <span class="l2"> <span class="price">21</span>  <span class="pnr"> <small> (bronx ny)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4211895221"> <a href="/brx/cas/4211895221.html" class="i" data-id="0:00g0g_9y16pqsx1eM"><span class="price">49</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4211895221.html">PARTY BOTTOM LOOKING A BLK BIG DICK TOP/NICE BODY 18-30 TO PNP - m4m</a> </span> <span class="l2"> <span class="price">49</span>  <span class="pnr"> <small> (BRONX)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4212498347"> <a href="/stn/cas/4212498347.html" class="i" data-id="0:01414_1bcD5QqB6oG"><span class="price">32</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/stn/cas/4212498347.html">Dirty black chick needed - m4w</a> </span> <span class="l2"> <span class="price">32</span>  <span class="pnr"> <small> (S.I)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234539825"> <a href="/mnh/cas/4234539825.html" class="i" data-id="0:00E0E_7IafQnrhbu"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4234539825.html">SKYPE SKYPE SKYPE - m4w</a> </span> <span class="l2">   <span class="pnr">  <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4214705053"> <a href="/stn/cas/4214705053.html" class="i" data-id="0:00i0i_7qwRbnKB1ww"><span class="price">33</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/stn/cas/4214705053.html">Big/Thick Chicks/BBW's - m4w</a> </span> <span class="l2"> <span class="price">33</span>  <span class="pnr"> <small> (staten island)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234319535"> <a href="/mnh/cas/4234319535.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4234319535.html">Mutual Masturbation &amp; Oral Fun? - m4w</a> </span> <span class="l2">   <span class="pnr"> <small> (Manhattan)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4195446914"> <a href="/mnh/cas/4195446914.html" class="i" data-id="0:00N0N_kotTYLOhRIh"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4195446914.html">ASS EATING ever want to try it but to shy to ask for it - m4w</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (down town)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238026483"> <a href="/brk/cas/4238026483.html" class="i" data-id="0:00u0u_3DYowhqxvrE"><span class="price">27</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4238026483.html">looking to have some fun - w4mw</a> </span> <span class="l2"> <span class="price">27</span>  <span class="pnr">  <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238026458"> <a href="/mnh/cas/4238026458.html" class="i" data-id="0:00J0J_45jw6v9Kpxr"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238026458.html">Can someone tell me who this man is? - t4m</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (Downtown)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234054389"> <a href="/brk/cas/4234054389.html" class="i"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4234054389.html">A Nice Relaxing Full Body Massage Wanted By Curvy Thick Black Girl - w4m</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (NYC)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238007814"> <a href="/que/cas/4238007814.html" class="i" data-id="0:00N0N_2t1vOd30gZR"><span class="price">22</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4238007814.html">completely satisfiedÂ &#9742;&#9742;&#9742; - w4m</a> </span> <span class="l2"> <span class="price">22</span>  <span class="pnr"> <small> (queens laurelton)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4223036275"> <a href="/mnh/cas/4223036275.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4223036275.html">Need to have your Ass Licked for a while? - m4w</a> </span> <span class="l2">   <span class="pnr"> <small> (Gramercy)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238018741"> <a href="/mnh/cas/4238018741.html" class="i" data-id="0:00I0I_gv0A2yMNxMh"><span class="price">20</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238018741.html">bored on a cold day - m4m</a> </span> <span class="l2"> <span class="price">20</span>  <span class="pnr"> <small> (East Village)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4223853636"> <a href="/que/cas/4223853636.html" class="i" data-id="0:00909_4AwJYmXUGDC"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/que/cas/4223853636.html">BBC LOOKING FOR SOME LATE NIGHT CAR FUN - m4w</a> </span> <span class="l2">   <span class="pnr">  <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4207301941"> <a href="/brx/cas/4207301941.html" class="i" data-id="0:00A0A_i0qzIgV54xM"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4207301941.html">shy sexy girl with glasses wanted., - m4w</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (bronx)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4238007350"> <a href="/mnh/cas/4238007350.html" class="i" data-id="0:00Y0Y_4rr0by6Y7Xb"><span class="price">26</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4238007350.html">evening date with blonde - w4m</a> </span> <span class="l2"> <span class="price">26</span>  <span class="pnr"> <small> (Chelsea)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4222853602"> <a href="/mnh/cas/4222853602.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4222853602.html">Would love to orally please a sexy woman with a Clit Piercing - m4w</a> </span> <span class="l2">   <span class="pnr"> <small> (NYC)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234533195"> <a href="/brk/cas/4234533195.html" class="i"><span class="price">31</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brk/cas/4234533195.html">HUNG WHITE BOY LOOKIN 4 A CHICK WITH A HUUUGE ASS - m4w</a> </span> <span class="l2"> <span class="price">31</span>  <span class="pnr"> <small> (WHEREVER)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4234532560"> <a href="/mnh/cas/4234532560.html" class="i"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4234532560.html">Want a bj? - m4t</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (I'll come to you)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237996933"> <a href="/mnh/cas/4237996933.html" class="i"><span class="price">49</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237996933.html">phone toy anywhere  - m4w</a> </span> <span class="l2"> <span class="price">49</span>  <span class="pnr"> <small> (Lower East Side)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4237981831"> <a href="/mnh/cas/4237981831.html" class="i" data-id="0:00C0C_lQd2WJz1Vvk"><span class="price">22</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4237981831.html">do what you want with my body - m4m</a> </span> <span class="l2"> <span class="price">22</span>  <span class="pnr"> <small> (Union Square)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4223107206"> <a href="/brx/cas/4223107206.html" class="i" data-id="0:00D0D_9YDOTXEC6YX"><span class="price">35</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4223107206.html">LOOK FOR BX9 BUS PUSSY  - m4w</a> </span> <span class="l2"> <span class="price">35</span>  <span class="pnr"> <small> (BRONX)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4216521574"> <a href="/mnh/cas/4216521574.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4216521574.html">It's good to know what you want..... - m4w</a> </span> <span class="l2">   <span class="pnr"> <small> (NYC)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4223112551"> <a href="/brx/cas/4223112551.html" class="i" data-id="0:00N0N_2Q1oSIdIFJg"><span class="price">40</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4223112551.html">Older pussy wanted must be over 40  - m4w</a> </span> <span class="l2"> <span class="price">40</span>  <span class="pnr"> <small> (bronx)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4216652008"> <a href="/mnh/cas/4216652008.html" class="i"></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/mnh/cas/4216652008.html">Sexy Bi Woman open to a Foursome? - mw4w</a> </span> <span class="l2">   <span class="pnr"> <small> (NYC)</small> <span class="px"> <span class="p"> </span></span> </span>  </span> </p>
+ <p class="row" data-pid="4223124981"> <a href="/brx/cas/4223124981.html" class="i" data-id="0:01717_8DOSP4097lJ"><span class="price">30</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4223124981.html">SLOPPY HEAD - m4w</a> </span> <span class="l2"> <span class="price">30</span>  <span class="pnr"> <small> (BRONX)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+ <p class="row" data-pid="4210015114"> <a href="/brx/cas/4210015114.html" class="i" data-id="0:00d0d_jLDxysC513a"><span class="price">20</span></a> <span class="star"></span> <span class="pl"> <span class="date">Dec 10</span>  <a href="/brx/cas/4210015114.html">Fully loaded  - t4m</a> </span> <span class="l2"> <span class="price">20</span>  <span class="pnr"> <small> (Bx)</small> <span class="px"> <span class="p"> pic</span></span> </span>  </span> </p>
+
+                    
+                </div>
+
+                <div class="toc_legend bottom"><div class="center"><div class='bottompaginator'><span class="paginator buttongroup">
+<a href='/cas/' class="button first" title="first page"> &lt;&lt; </a><a href='/cas/' class="button prev" title="previous page"> &lt; prev </a><span class="button pagenum">101 - 200 </span><a href='/cas/index200.html' class="button next" title="next page"> next &gt; </a>
+</span></div></div></div>
+
+            </div>
+            <div id="floater">
+                <img class="loading" src="http://www.craigslist.org/images/map/animated-spinny.gif">
+                <img class="payload" src="http://www.craigslist.org/images/map/animated-spinny.gif">
+            </div>
+
+
+
+            <section class="blurbs">
+                <blockquote id="messagetable"><div id="messages"><span class="hl"></span>
+<span class="hl"> [ <a href="http://youtube.com/craigslist">tv</a> ] </span>
+<span class="hl"> [ <a href="http://blog.craigslist.org/">blog</a> ] </span>
+<span class="hl"> [ <a href="/about/scams">scams</a> ] </span>
+<span class="hl"> [ <a href="/about/safety">safety</a> ] </span>
+<span class="hl"> [ <a href="/about/prohibited">prohibited</a> ] </span>
+</div></blockquote>
+            </section>
+        </section>
+        
+        <ul id="fmtsel">
+	<li><b>FORMAT:</b></li>
+	<li class="fsel" data-mode="mobile">mobile</li>
+	<li class="fsel" data-mode="regular">standard</li>
+</ul>
+<footer>
+	
+			<span class="rss">
+				<a class="l" href="/cas/index.rss">RSS</a>
+				<a href="http://www.craigslist.org/about/rss">(?)</a><br>
+			</span>
+			
+	<ul class="clfooter">
+		<li>&copy; 2013 craigslist</li>
+		<li><a href="//www.craigslist.org/about/help/">help</a></li>
+		<li><a href="//www.craigslist.org/about/terms.of.use">terms</a></li>
+		<li><a href="//www.craigslist.org/about/privacy.policy">privacy</a></li>
+		<li><a href="//www.craigslist.org/about/scams">safety</a></li>
+		<li><a href="https://forums.craigslist.org/?forumID=8">feedback</a></li>
+		<li><a href="//www.craigslist.org/about/">about</a></li>
+		<li><a href="//www.craigslist.org/about/craigslist_is_hiring" style="color: #0b0">cl jobs</a></li>
+	</ul>
+</footer>
+    </article>
+    <!--[if lte IE 7]>
+        <script type="text/javascript" src="//www.craigslist.org/js/json2.js?v=c1da07f5953739dffc17fd1db3c5313c" ></script>
+    <![endif]-->
+    <script type="text/javascript" src="//www.craigslist.org/js/jquery-1.9.1.js?v=56eaef3b8a28d9d45bb4f86004b0eaae" ></script>
+    <script type="text/javascript" src="//www.craigslist.org/js/jquery-ui-1.9.2.custom.js?v=32c38510c8db71f2fbef00da891aeaac" ></script>
+    <script type="text/javascript" src="//www.craigslist.org/js/formats.js?v=de0b68316eab03f147c3451853448c58" ></script>
+    <script type="text/javascript" src="//www.craigslist.org/js/toChecklist.js?v=b163a7aa23a6dad79076f92e56c622f7" ></script>
+    <script type="text/javascript" src="//www.craigslist.org/js/jquery.form-defaults.js?v=421648d06bad2f29bbfc2f66c5205aeb" ></script>
+    <script type="text/javascript" src="//www.craigslist.org/js/tocs.js?v=184ae74e9c8c08a59fdf19980d70f699" ></script>
+    <script type="text/javascript" src="//www.craigslist.org/js/favorites.js?v=f710a4aac353592ae2b347f9c9b5c9b3" ></script>
+    <script type="text/javascript" src="//www.craigslist.org/js/suggestions.js?v=febb5f24aa5f9fa0b8d744f6bed5eaaa" ></script>
+    
+    <script type="text/javascript" src="//www.craigslist.org/js/postings.js?v=290084256d5ed21fec190fcd9f42ea27" defer async></script>
+</body>
+</html>
+

@@ -1,0 +1,12 @@
+new_york_base:
+
+python single_config.py http://newyork.craigslist.org
+python automate.py
+
+new_york_scraping:
+python clean_urls.py
+python recursive_scrape.py
+python results_filter_men.py
+python results_filter_women.py
+
+new_york_analysis:
